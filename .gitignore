@@ -1,3 +1,6 @@
 output/
+runs/
+wandb/
+__pycache__
 *.csv
 *.ipynb
