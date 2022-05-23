@@ -7,16 +7,53 @@ import torch.nn as nn
 import matplotlib.pyplot as plt
 from util import *
 
+
+## 데이터 로더를 구현하기
+class Inference_Dataset(torch.utils.data.Dataset):
+    def __init__(self, data_dir, transform=None, task=None):
+        self.data_dir = data_dir
+        self.transform = transform
+        self.task = task
+
+        self.to_tensor = ToTensor()
+        
+        lst_data = os.listdir(self.data_dir)
+        lst_data = [f for f in lst_data if f.endswith('jpg') | f.endswith('jpeg') | f.endswith('png')]
+        lst_data.sort()
+        
+        self.lst_data = lst_data
+
+
+    def __len__(self):
+        return len(self.lst_data)
+
+    def __getitem__(self, index):
+        data = {}
+        data_sample = plt.imread(os.path.join(self.data_dir, self.lst_data[index]))[:, :, :3]
+
+        if data_sample.ndim == 2:
+            data_sample = data_sample[:, :, np.newaxis]
+        if data_sample.dtype == np.uint8:
+            data_sample = data_sample / 255.0
+
+        data['input'] = data_sample
+
+        if self.transform:
+            data = self.transform(data)
+
+        data = self.to_tensor(data)
+
+        return data
+
+
 ## 데이터 로더를 구현하기
 class Dataset(torch.utils.data.Dataset):
-    def __init__(self, data_dir, transform=None, task=None, data_type='both'):
+    def __init__(self, data_dir, transform=None, data_type='both'):
         self.data_dir_a = data_dir + 'A'
         self.data_dir_b = data_dir + 'B'
         self.transform = transform
-        self.task = task
         self.data_type = data_type
 
-        # Updated at Apr 5 2020
         self.to_tensor = ToTensor()
 
         if os.path.exists(self.data_dir_a):
@@ -70,7 +107,6 @@ class Dataset(torch.utils.data.Dataset):
             if data_b.dtype == np.uint8:
                 data_b = data_b / 255.0
 
-            # data = {'data_b': data_b}
             data['data_b'] = data_b
 
         if self.transform:

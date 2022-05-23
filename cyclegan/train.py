@@ -146,12 +146,17 @@ def train(args):
             netD_a.train()
             netD_b.train()
 
+            # Adversarial Loss
             loss_G_a2b_train = []
             loss_G_b2a_train = []
             loss_D_a_train = []
             loss_D_b_train = []
+
+            # Cycle Consistency Loss
             loss_cycle_a_train = []
             loss_cycle_b_train = []
+
+            # Identity Loss
             loss_ident_a_train = []
             loss_ident_b_train = []
 
@@ -281,7 +286,7 @@ def train(args):
             writer_train.add_scalar('loss_ident_a', np.mean(loss_ident_a_train), epoch)
             writer_train.add_scalar('loss_ident_b', np.mean(loss_ident_b_train), epoch)
 
-            if epoch % 2 == 0 or epoch == num_epoch:
+            if epoch % 10 == 0 or epoch == num_epoch:
                 save(ckpt_dir=ckpt_dir, epoch=epoch,
                      netG_a2b=netG_a2b, netG_b2a=netG_b2a,
                      netD_a=netD_a, netD_b=netD_b,
@@ -290,7 +295,7 @@ def train(args):
         writer_train.close()
 
 
-def test(args):
+def eval(args):
     ## 트레이닝 파라메터 설정하기
     mode = args.mode
     train_continue = args.train_continue
@@ -398,7 +403,7 @@ def test(args):
     ## 네트워크 학습시키기
     st_epoch = 0
 
-    # TRAIN MODE
+    # TEST MODE
     if mode == "test":
         netG_a2b, netG_b2a, \
         netD_a, netD_b, \

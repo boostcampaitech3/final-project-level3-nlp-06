@@ -18,11 +18,11 @@
 #
 
 python3 '/opt/ml/fairytale_local/styletransfer_gan/Cycle_GAN/main.py' \
-        --mode 'test' \
+        --mode 'train' \
         --train_continue 'on' \
         --lr 2e-4 \
         --batch_size 4 \
-        --num_epoch 200 \
+        --num_epoch 100 \
         --ny 256 \
         --nx 256 \
         --nch 3 \
