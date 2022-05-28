@@ -1,3 +1,6 @@
+import numpy as np
+import torch
+import torch.nn.functional as F
 from typing import NoReturn
 from transformers import (
     TextDataset,
@@ -7,10 +10,27 @@ from transformers import (
     TrainingArguments,
     AutoTokenizer
 )
-import torch
-from tqdm import tqdm
-import os
- 
+
+def perplexity(output, target):
+    output = np.array(output)
+    target = np.array(target)
+    if output.shape[0] <= target.shape[0]:
+        zero_output = np.zeros_like(target)
+        zero_output[:output.shape[0]] = output
+        output = zero_output
+    else:
+        zero_output = np.zeros_like(output)
+        zero_output[:target.shape[0]] = target
+        target = zero_output
+
+    target = torch.FloatTensor(target)
+    output = torch.FloatTensor(output)
+    loss = F.cross_entropy(output,target)
+    return torch.exp(loss)
+
+def compute_metrics(output,target):
+    ppl = perplexity(output,target)
+    return ppl
 
 def load_dataset(file_path, tokenizer, block_size = 128):
     dataset = TextDataset(
@@ -35,8 +55,7 @@ def train(
     overwrite_output_dir,
     per_device_train_batch_size,
     num_train_epochs,
-    save_steps,
-    # test_dir,
+    save_steps
     ):
     # https://huggingface.co/skt/ko-gpt-trinity-1.2B-v0.5
     tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -51,7 +70,9 @@ def train(
     
     model = AutoModelForCausalLM.from_pretrained(
         model_name, 
-        pad_token_id=tokenizer.eos_token_id,
+        pad_token_id=tokenizer.pad_token_id,
+        bos_token_id=tokenizer.bos_token_id,
+        eos_token_id=tokenizer.eos_token_id,
         torch_dtype='auto', low_cpu_mem_usage=True
         ).to(device='cuda', non_blocking=True)
 
@@ -72,12 +93,12 @@ def train(
             args=training_args,
             data_collator=data_collator,
             train_dataset=train_dataset,
+            compute_metrics = compute_metrics,
     )
         
     trainer.train()
     trainer.save_model()
     print(f'model saved.')
-
 
 
 ## Main
@@ -88,7 +109,7 @@ def main():
     model_name = 'skt/ko-gpt-trinity-1.2B-v0.5'
     output_dir = './output'
     overwrite_output_dir = False
-    per_device_train_batch_size = 8 # batch 사이즈 조절 시 oom이 발생할 수 있습니다...
+    per_device_train_batch_size = 4 # batch 사이즈 조절 시 oom이 발생할 수 있습니다...
     num_train_epochs = 20
     save_steps = 500
     

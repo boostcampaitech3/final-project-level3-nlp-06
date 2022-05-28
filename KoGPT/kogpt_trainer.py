@@ -93,7 +93,7 @@ def train(
             args=training_args,
             data_collator=data_collator,
             train_dataset=train_dataset,
-            compute_metrics = compute_metrics
+            compute_metrics = compute_metrics,
     )
         
     trainer.train()
@@ -109,7 +109,7 @@ def main():
     model_name = 'skt/ko-gpt-trinity-1.2B-v0.5'
     output_dir = './output'
     overwrite_output_dir = False
-    per_device_train_batch_size = 8 # batch 사이즈 조절 시 oom이 발생할 수 있습니다...
+    per_device_train_batch_size = 4 # batch 사이즈 조절 시 oom이 발생할 수 있습니다...
     num_train_epochs = 20
     save_steps = 500
     
