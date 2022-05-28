@@ -2,7 +2,7 @@ from transformers import GPT2LMHeadModel, PreTrainedTokenizerFast
 
 # inference
 def generate_text(sequence, max_length, top_k=50, top_p=0.95, temperature=0.85):
-    model_path = "./models"
+    model_path = "./output"
     model = GPT2LMHeadModel.from_pretrained(model_path)
     tokenizer = PreTrainedTokenizerFast.from_pretrained(model_path)
     ids = tokenizer.encode(f'{sequence},', return_tensors='pt')
@@ -10,8 +10,6 @@ def generate_text(sequence, max_length, top_k=50, top_p=0.95, temperature=0.85):
         ids,
         do_sample=True,
         max_length=max_length,
-        bos_token_id=model.config.bos_token_id,
-        eos_token_id=model.config.eos_token_id,
         pad_token_id=model.config.pad_token_id,
         top_k=top_k, # Top-K 샘플링
         top_p=top_p, # Top-P 샘플링
