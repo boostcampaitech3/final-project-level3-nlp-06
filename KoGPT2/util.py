@@ -4,6 +4,7 @@ import numpy as np
 
 import torch
 import torch.nn as nn
+import torch.nn.functional as F
 from transformers import DataCollatorForLanguageModeling, PreTrainedTokenizer
 from transformers.utils.logging import *
 
@@ -135,3 +136,20 @@ class TextDataset(Dataset):
 
     def __getitem__(self, i) -> torch.Tensor:
         return torch.tensor(self.examples[i], dtype=torch.long)
+
+def perplexity(output, target):
+    output = np.array(output)
+    target = np.array(target)
+    if output.shape[0] <= target.shape[0]:
+        zero_output = np.zeros_like(target)
+        zero_output[:output.shape[0]] = output
+        output = zero_output
+    else:
+        zero_output = np.zeros_like(output)
+        zero_output[:target.shape[0]] = target
+        target = zero_output
+
+    target = torch.FloatTensor(target)
+    output = torch.FloatTensor(output)
+    loss = F.cross_entropy(output,target)
+    return torch.exp(loss)

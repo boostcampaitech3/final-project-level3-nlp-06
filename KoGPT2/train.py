@@ -4,7 +4,11 @@ from transformers import (
     TrainingArguments,
     PreTrainedTokenizerFast
 )
-from util import load_dataset, load_data_collator
+from util import load_dataset, load_data_collator, perplexity
+
+def compute_metrics(output,target):
+    ppl = perplexity(output,target)
+    return ppl
 
 # Train
 def train(args):
@@ -48,6 +52,7 @@ def train(args):
         args=training_args,
         data_collator=data_collator,
         train_dataset=train_dataset,
+        compute_metrics = compute_metrics,
     )
         
     trainer.train()
