@@ -1,0 +1,567 @@
+./dataset/grimm_tale/고양이와 쥐의 파트너십.txt	grimm1.txt
+./dataset/grimm_tale/거인과 재봉사.txt	grimm2.txt
+./dataset/grimm_tale/은혜를 모르는 아들.txt	grimm3.txt
+./dataset/grimm_tale/달콤한오트밀.txt	grimm4.txt
+./dataset/grimm_tale/개암나무 가지.txt	grimm5.txt
+./dataset/grimm_tale/늑대와 일곱 마리의 어린 염소들.txt	grimm6.txt
+./dataset/grimm_tale/구둣방 주인 송곳 씨.txt	grimm7.txt
+./dataset/grimm_tale/두 형제.txt	grimm8.txt
+./dataset/grimm_tale/세 장의 뱀 잎.txt	grimm9.txt
+./dataset/grimm_tale/어린 양과 작은 물고기.txt	grimm10.txt
+./dataset/grimm_tale/최고의 도둑.txt	grimm11.txt
+./dataset/grimm_tale/당나귀양배추.txt	grimm12.txt
+./dataset/grimm_tale/노래하는 뼈.txt	grimm13.txt
+./dataset/grimm_tale/늑대와 여우.txt	grimm14.txt
+./dataset/grimm_tale/장미.txt	grimm15.txt
+./dataset/grimm_tale/세 개의 깃털.txt	grimm16.txt
+./dataset/grimm_tale/지푸라기, 숯, 콩.txt	grimm17.txt
+./dataset/grimm_tale/디트마르쉬의 허풍.txt	grimm18.txt
+./dataset/grimm_tale/예쁜 카트리넬리에와 핍 팝 폴트리.txt	grimm19.txt
+./dataset/grimm_tale/영리한꼬마재단사.txt	grimm20.txt
+./dataset/grimm_tale/충신 요하네스.txt	grimm21.txt
+./dataset/grimm_tale/암탉의 죽음.txt	grimm22.txt
+./dataset/grimm_tale/푸른 나뭇가지 세 개.txt	grimm23.txt
+./dataset/grimm_tale/용감한 꼬마 재봉사.txt	grimm24.txt
+./dataset/grimm_tale/노간주나무.txt	grimm25.txt
+./dataset/grimm_tale/노인과 손자.txt	grimm26.txt
+./dataset/grimm_tale/늙은 개 술탄.txt	grimm27.txt
+./dataset/grimm_tale/황금 거위.txt	grimm28.txt
+./dataset/grimm_tale/숲 속의 세 난쟁이.txt	grimm29.txt
+./dataset/grimm_tale/신붓감 고르기.txt	grimm30.txt
+./dataset/grimm_tale/트루데 아주머니.txt	grimm31.txt
+./dataset/grimm_tale/한스결혼하다.txt	grimm32.txt
+./dataset/grimm_tale/크노이스트와 세 아들.txt	grimm33.txt
+./dataset/grimm_tale/젖과 꿀이 흐르는 땅에 관한 이야기.txt	grimm34.txt
+./dataset/grimm_tale/물의 요정.txt	grimm35.txt
+./dataset/grimm_tale/숲 속의 오두막집.txt	grimm36.txt
+./dataset/grimm_tale/삼형제의 행운.txt	grimm37.txt
+./dataset/grimm_tale/라푼첼.txt	grimm38.txt
+./dataset/grimm_tale/배낭과 모자와 뿔피리.txt	grimm39.txt
+./dataset/grimm_tale/하느님의 음식.txt	grimm40.txt
+./dataset/grimm_tale/연인 롤랑.txt	grimm41.txt
+./dataset/grimm_tale/재주가 좋은 네 형제.txt	grimm42.txt
+./dataset/grimm_tale/성실한 페레난트와 불성실한 페레난트.txt	grimm43.txt
+./dataset/grimm_tale/수수께끼 이야기.txt	grimm44.txt
+./dataset/grimm_tale/헨젤과 그레텔.txt	grimm45.txt
+./dataset/grimm_tale/무쇠 난로.txt	grimm46.txt
+./dataset/grimm_tale/젊어진 노인.txt	grimm47.txt
+./dataset/grimm_tale/개똥지빠귀 수염 왕.txt	grimm48.txt
+./dataset/grimm_tale/엄지둥이.txt	grimm49.txt
+./dataset/grimm_tale/여우와 사촌.txt	grimm50.txt
+./dataset/grimm_tale/개구리왕자.txt	grimm51.txt
+./dataset/grimm_tale/경탄할 만한 연주가.txt	grimm52.txt
+./dataset/grimm_tale/여섯 마리 백조.txt	grimm53.txt
+./dataset/grimm_tale/생쥐, 새, 소시지.txt	grimm54.txt
+./dataset/grimm_tale/양치기 소년.txt	grimm55.txt
+./dataset/grimm_tale/고슴도치한스.txt	grimm56.txt
+./dataset/grimm_tale/잠자는 숲속의 미녀.txt	grimm57.txt
+./dataset/grimm_tale/저승사자.txt	grimm58.txt
+./dataset/grimm_tale/대부가 된 저승사자.txt	grimm59.txt
+./dataset/grimm_tale/거위치는소녀.txt	grimm60.txt
+./dataset/grimm_tale/굴뚝새와곰.txt	grimm61.txt
+./dataset/grimm_tale/부엉이.txt	grimm62.txt
+./dataset/grimm_tale/가난뱅이와부자.txt	grimm63.txt
+./dataset/grimm_tale/고집줄통아이.txt	grimm64.txt
+./dataset/grimm_tale/노름꾼 헨젤.txt	grimm65.txt
+./dataset/grimm_tale/난쟁이의 선물.txt	grimm66.txt
+./dataset/grimm_tale/열두 사도.txt	grimm67.txt
+./dataset/grimm_tale/꼬마 요정들.txt	grimm68.txt
+./dataset/grimm_tale/아마 부스러기.txt	grimm69.txt
+./dataset/grimm_tale/종.txt	grimm70.txt
+./dataset/grimm_tale/숲 속의 성 요셉.txt	grimm71.txt
+./dataset/grimm_tale/당나귀 왕자.txt	grimm72.txt
+./dataset/grimm_tale/여섯 명의 하인.txt	grimm73.txt
+./dataset/grimm_tale/게으름뱅이 세 아들.txt	grimm74.txt
+./dataset/grimm_tale/황금 열쇠.txt	grimm75.txt
+./dataset/grimm_tale/겁없는왕자.txt	grimm76.txt
+./dataset/grimm_tale/농사꾼 나부랭이.txt	grimm77.txt
+./dataset/grimm_tale/여우 부인의 결혼식.txt	grimm78.txt
+./dataset/grimm_tale/세군의관.txt	grimm79.txt
+./dataset/grimm_tale/땅속요정.txt	grimm80.txt
+./dataset/grimm_tale/웃기는 친구 루스티히.txt	grimm81.txt
+./dataset/grimm_tale/까마귀.txt	grimm82.txt
+./dataset/grimm_tale/백사.txt	grimm83.txt
+./dataset/grimm_tale/닭장의 홰.txt	grimm84.txt
+./dataset/grimm_tale/대부님.txt	grimm85.txt
+./dataset/grimm_tale/백설공주.txt	grimm86.txt
+./dataset/grimm_tale/프레드릭과 캐서린.txt	grimm87.txt
+./dataset/grimm_tale/손 없는 소녀.txt	grimm88.txt
+./dataset/grimm_tale/이와 벼룩.txt	grimm89.txt
+./dataset/grimm_tale/기쁨도 함께 슬픔도 함께.txt	grimm90.txt
+./dataset/grimm_tale/샘물가에서 거위치는 아가씨.txt	grimm91.txt
+./dataset/grimm_tale/세형제.txt	grimm92.txt
+./dataset/grimm_tale/커다란 무.txt	grimm93.txt
+./dataset/grimm_tale/세 명의 검은 공주.txt	grimm94.txt
+./dataset/grimm_tale/진짜 신부.txt	grimm95.txt
+./dataset/grimm_tale/식탁 위의 빵 부스러기.txt	grimm96.txt
+./dataset/grimm_tale/솜씨좋은사냥꾼.txt	grimm97.txt
+./dataset/grimm_tale/세마리작은새.txt	grimm98.txt
+./dataset/grimm_tale/알락해오라기와 후투티.txt	grimm99.txt
+./dataset/grimm_tale/파란등잔불.txt	grimm100.txt
+./dataset/grimm_tale/노래하며팔짝거리는종달새.txt	grimm101.txt
+./dataset/grimm_tale/못.txt	grimm102.txt
+./dataset/grimm_tale/열두 사냥꾼.txt	grimm103.txt
+./dataset/grimm_tale/여왕벌.txt	grimm104.txt
+./dataset/grimm_tale/천국에 간 재단사.txt	grimm105.txt
+./dataset/grimm_tale/유리관.txt	grimm106.txt
+./dataset/grimm_tale/브레멘의 동물 음악대.txt	grimm107.txt
+./dataset/grimm_tale/악마와악마의할머니.txt	grimm108.txt
+./dataset/grimm_tale/가자미.txt	grimm109.txt
+./dataset/grimm_tale/무쇠 한스.txt	grimm110.txt
+./dataset/grimm_tale/황금산의임금님.txt	grimm111.txt
+./dataset/grimm_tale/꽤 괜찮은 흥정.txt	grimm112.txt
+./dataset/grimm_tale/건달들의 무리.txt	grimm113.txt
+./dataset/grimm_tale/어부와 아내.txt	grimm114.txt
+./dataset/grimm_tale/영리한 그레텔.txt	grimm115.txt
+./dataset/grimm_tale/새가 주운 아이.txt	grimm116.txt
+./dataset/grimm_tale/빛나는햇빛이밝혀주리.txt	grimm117.txt
+./dataset/grimm_tale/빨간 모자.txt	grimm118.txt
+./dataset/grimm_tale/유리병속의도깨비.txt	grimm119.txt
+./dataset/grimm_tale/악마의 황금 머리카락 세 가닥.txt	grimm120.txt
+./dataset/grimm_tale/천국에 간 농부.txt	grimm121.txt
+./dataset/grimm_tale/실 잣는 세 여인네들.txt	grimm122.txt
+./dataset/grimm_tale/가시덤불속의유대인.txt	grimm123.txt
+./dataset/grimm_tale/말렌 아가씨.txt	grimm124.txt
+./dataset/grimm_tale/황금아이들.txt	grimm125.txt
+./dataset/grimm_tale/하얀 신부와 까만 신부.txt	grimm126.txt
+./dataset/grimm_tale/춤추는 열두 공주.txt	grimm127.txt
+./dataset/grimm_tale/달.txt	grimm128.txt
+./dataset/grimm_tale/두왕의아이들.txt	grimm129.txt
+./dataset/grimm_tale/거지 할머니.txt	grimm130.txt
+./dataset/grimm_tale/숨겨놓은 동전.txt	grimm131.txt
+./dataset/grimm_tale/힘센 한스.txt	grimm132.txt
+./dataset/grimm_tale/여우와 고양이.txt	grimm133.txt
+./dataset/grimm_tale/일곱명의슈바벤사람.txt	grimm134.txt
+./dataset/grimm_tale/신데렐라.txt	grimm135.txt
+./dataset/grimm_tale/코르베스 씨.txt	grimm136.txt
+./dataset/grimm_tale/못 속의 물의 요정.txt	grimm137.txt
+./dataset/grimm_tale/룸펠슈틸츠헨.txt	grimm138.txt
+./dataset/grimm_tale/흰눈이와 빨간 장미.txt	grimm139.txt
+./dataset/grimm_tale/도둑과 도둑 선생.txt	grimm140.txt
+./dataset/grimm_tale/하늘나라에서가져온도리깨.txt	grimm141.txt
+./dataset/grimm_tale/곡식의 이삭.txt	grimm142.txt
+./dataset/grimm_tale/물소 가죽 장화.txt	grimm143.txt
+./dataset/grimm_tale/카네이션.txt	grimm144.txt
+./dataset/grimm_tale/물렛가락과 북과 바늘.txt	grimm145.txt
+./dataset/grimm_tale/일곱 마리 까마귀.txt	grimm146.txt
+./dataset/grimm_tale/불쌍한방앗간젊은이와고양이.txt	grimm147.txt
+./dataset/grimm_tale/게으른 열두 하인.txt	grimm148.txt
+./dataset/grimm_tale/황금새.txt	grimm149.txt
+./dataset/grimm_tale/괴물새 그리핀.txt	grimm150.txt
+./dataset/grimm_tale/숲속의노파.txt	grimm151.txt
+./dataset/grimm_tale/털북숭이 공주.txt	grimm152.txt
+./dataset/grimm_tale/곰가죽.txt	grimm153.txt
+./dataset/grimm_tale/영리한 하인.txt	grimm154.txt
+./dataset/grimm_tale/게으른 실 잣는 여인.txt	grimm155.txt
+./dataset/grimm_tale/세직공.txt	grimm156.txt
+./dataset/grimm_tale/여행.txt	grimm157.txt
+./dataset/grimm_tale/여우와 말.txt	grimm158.txt
+./dataset/grimm_tale/한눈이, 두눈이, 세눈이.txt	grimm159.txt
+./dataset/grimm_tale/늑대와 사람.txt	grimm160.txt
+./dataset/grimm_tale/이브의 다양한 자녀들.txt	grimm161.txt
+./dataset/grimm_tale/늙은힐데브란트.txt	grimm162.txt
+./dataset/grimm_tale/수수께끼.txt	grimm163.txt
+./dataset/grimm_tale/아빠 참새와 새끼 참새 네 마리.txt	grimm164.txt
+./dataset/grimm_tale/세 가지 언어.txt	grimm165.txt
+./dataset/grimm_tale/무서움을 배우러 나선 젊은이 이야기.txt	grimm166.txt
+./dataset/grimm_tale/브라켈에서 온 아가씨.txt	grimm167.txt
+./dataset/grimm_tale/여우와거위들.txt	grimm168.txt
+./dataset/grimm_tale/나이 드신 어머님.txt	grimm169.txt
+./dataset/grimm_tale/똑똑한 엘시.txt	grimm170.txt
+./dataset/grimm_tale/하늘나라의 결혼 잔치.txt	grimm171.txt
+./dataset/grimm_tale/하느님의 동물과 악마의 동물.txt	grimm172.txt
+./dataset/grimm_tale/굴뚝새.txt	grimm173.txt
+./dataset/grimm_tale/열두 오빠들.txt	grimm174.txt
+./dataset/grimm_tale/지멜리 산.txt	grimm175.txt
+./dataset/grimm_tale/두꺼비이야기.txt	grimm176.txt
+./dataset/grimm_tale/가난과 겸손이 천국으로 이끄나니.txt	grimm177.txt
+./dataset/grimm_tale/운좋은한스.txt	grimm178.txt
+./dataset/grimm_tale/가엾은 오빠와 사랑스러운 누이.txt	grimm179.txt
+./dataset/grimm_tale/수명.txt	grimm180.txt
+./dataset/grimm_tale/요린데와 요링겔.txt	grimm181.txt
+./dataset/grimm_tale/요술 식탁, 황금 당나귀, 자루 속에 든 몽둥이.txt	grimm182.txt
+./dataset/grimm_tale/수의.txt	grimm183.txt
+./dataset/grimm_tale/척척박사.txt	grimm184.txt
+./dataset/grimm_tale/여섯 사나이의 신나는 모험.txt	grimm185.txt
+./dataset/grimm_tale/두나그네.txt	grimm186.txt
+./dataset/grimm_tale/무덤에 누운 불쌍한 소년.txt	grimm187.txt
+./dataset/grimm_tale/도둑 신랑.txt	grimm188.txt
+./dataset/grimm_tale/늙은 링크랑크.txt	grimm189.txt
+./dataset/grimm_tale/악마의숯검댕이동생.txt	grimm190.txt
+./dataset/grimm_tale/바다 민달팽이.txt	grimm191.txt
+./dataset/grimm_tale/성모 마리아의 작은 잔.txt	grimm192.txt
+./dataset/grimm_tale/똑똑한 한스.txt	grimm193.txt
+./dataset/grimm_tale/말라깽이 리제.txt	grimm194.txt
+./dataset/grimm_tale/엄지둥이의 여행.txt	grimm195.txt
+./dataset/grimm_tale/토끼의 신부.txt	grimm196.txt
+./dataset/grimm_tale/피처의 새.txt	grimm197.txt
+./dataset/grimm_tale/게으름뱅이 하인츠.txt	grimm198.txt
+./dataset/grimm_tale/어린거인.txt	grimm199.txt
+./dataset/grimm_tale/개와 참새.txt	grimm200.txt
+./dataset/grimm_tale/홀레 할머니.txt	grimm201.txt
+./dataset/grimm_tale/토끼와 고슴도치.txt	grimm202.txt
+./dataset/grimm_tale/은화가 된 별.txt	grimm203.txt
+./dataset/grimm_tale/농부와 악마.txt	grimm204.txt
+./dataset/grimm_tale/무덤.txt	grimm205.txt
+./dataset/grimm_tale/수정 구슬.txt	grimm206.txt
+./dataset/grimm_tale/생명의물.txt	grimm207.txt
+./dataset/grimm_tale/성모 마리아의 아이.txt	grimm208.txt
+./dataset/grimm_tale/영리한사람들.txt	grimm209.txt
+./dataset/grimm_tale/농부의영리한딸.txt	grimm210.txt
+./dataset/aesop_tale/여우와 원숭이.txt	aesop1.txt
+./dataset/aesop_tale/산토끼와 사냥개.txt	aesop2.txt
+./dataset/aesop_tale/놋그릇을 만드는 사람과 그의 개.txt	aesop3.txt
+./dataset/aesop_tale/사자와 돌고래.txt	aesop4.txt
+./dataset/aesop_tale/남자와 두 애인.txt	aesop5.txt
+./dataset/aesop_tale/강들과 바다.txt	aesop6.txt
+./dataset/aesop_tale/나무들과 도끼.txt	aesop7.txt
+./dataset/aesop_tale/늑대와 두루미.txt	aesop8.txt
+./dataset/aesop_tale/여우와 표범.txt	aesop9.txt
+./dataset/aesop_tale/두 병사와 강도.txt	aesop10.txt
+./dataset/aesop_tale/램프.txt	aesop11.txt
+./dataset/aesop_tale/싸움닭들과 독수리.txt	aesop12.txt
+./dataset/aesop_tale/양치기와 양.txt	aesop13.txt
+./dataset/aesop_tale/새끼 사슴과 그의 엄마.txt	aesop14.txt
+./dataset/aesop_tale/도둑들과 수탉.txt	aesop15.txt
+./dataset/aesop_tale/갈까마귀와 여우.txt	aesop16.txt
+./dataset/aesop_tale/천문학자.txt	aesop17.txt
+./dataset/aesop_tale/모기와 황소.txt	aesop18.txt
+./dataset/aesop_tale/주인과 개들.txt	aesop19.txt
+./dataset/aesop_tale/나이 먹은 사자.txt	aesop20.txt
+./dataset/aesop_tale/참나무와 갈대.txt	aesop21.txt
+./dataset/aesop_tale/거북과 독수리.txt	aesop22.txt
+./dataset/aesop_tale/늑대들과 양치기 개들.txt	aesop23.txt
+./dataset/aesop_tale/당나귀와 애완견.txt	aesop24.txt
+./dataset/aesop_tale/도둑과 엄마.txt	aesop25.txt
+./dataset/aesop_tale/농장에 들어간 사자.txt	aesop26.txt
+./dataset/aesop_tale/소들과 푸줏간 주인들.txt	aesop27.txt
+./dataset/aesop_tale/농부와 아들들.txt	aesop28.txt
+./dataset/aesop_tale/늑대와 어린양.txt	aesop29.txt
+./dataset/aesop_tale/목마른 비둘기.txt	aesop30.txt
+./dataset/aesop_tale/당나귀와 여우와 사자.txt	aesop31.txt
+./dataset/aesop_tale/노파와 포도주 병.txt	aesop32.txt
+./dataset/aesop_tale/부자와 가죽상인.txt	aesop33.txt
+./dataset/aesop_tale/허영심 강한 갈까마귀.txt	aesop34.txt
+./dataset/aesop_tale/고양이와 수탉.txt	aesop35.txt
+./dataset/aesop_tale/목동과 잃어버린 황소.txt	aesop36.txt
+./dataset/aesop_tale/어부와 작은 물고기.txt	aesop37.txt
+./dataset/aesop_tale/어부와 그물.txt	aesop38.txt
+./dataset/aesop_tale/사자와 생쥐와 여우.txt	aesop39.txt
+./dataset/aesop_tale/독사와 철공용줄.txt	aesop40.txt
+./dataset/aesop_tale/우유 짜는 소녀와 들통.txt	aesop41.txt
+./dataset/aesop_tale/왕을 바라는 개구리들.txt	aesop42.txt
+./dataset/aesop_tale/사람과 사자.txt	aesop43.txt
+./dataset/aesop_tale/여우와 까마귀.txt	aesop44.txt
+./dataset/aesop_tale/사자와 독수리.txt	aesop45.txt
+./dataset/aesop_tale/개에게 물린 남자.txt	aesop46.txt
+./dataset/aesop_tale/신의 조각상을 운반한 나귀.txt	aesop47.txt
+./dataset/aesop_tale/독수리와 새잡이.txt	aesop48.txt
+./dataset/aesop_tale/까마귀와 갈까마귀.txt	aesop49.txt
+./dataset/aesop_tale/개똥지빠귀와 새 사냥꾼.txt	aesop50.txt
+./dataset/aesop_tale/제비와 까마귀.txt	aesop51.txt
+./dataset/aesop_tale/멧돼지와 여우.txt	aesop52.txt
+./dataset/aesop_tale/병든 수사슴.txt	aesop53.txt
+./dataset/aesop_tale/사랑에 빠진 사자.txt	aesop54.txt
+./dataset/aesop_tale/제우스와 원숭이.txt	aesop55.txt
+./dataset/aesop_tale/암사자.txt	aesop56.txt
+./dataset/aesop_tale/왕자님과 사자그림.txt	aesop57.txt
+./dataset/aesop_tale/암염소와 턱수염.txt	aesop58.txt
+./dataset/aesop_tale/병든 솔개.txt	aesop59.txt
+./dataset/aesop_tale/까마귀와 뱀.txt	aesop60.txt
+./dataset/aesop_tale/황소와 암사자와 멧돼지 사냥꾼.txt	aesop61.txt
+./dataset/aesop_tale/당나귀와 노새.txt	aesop62.txt
+./dataset/aesop_tale/사냥꾼과 말을 탄 사람.txt	aesop63.txt
+./dataset/aesop_tale/아빠와 두 딸.txt	aesop64.txt
+./dataset/aesop_tale/개와 요리사.txt	aesop65.txt
+./dataset/aesop_tale/농부와 학들.txt	aesop66.txt
+./dataset/aesop_tale/게와 여우.txt	aesop67.txt
+./dataset/aesop_tale/꼬리 잘린 여우.txt	aesop68.txt
+./dataset/aesop_tale/세 명의 상인.txt	aesop69.txt
+./dataset/aesop_tale/돌고래들과 고래들과 같잖은 청어.txt	aesop70.txt
+./dataset/aesop_tale/농부와 사과나무.txt	aesop71.txt
+./dataset/aesop_tale/아기엄마와 늑대.txt	aesop72.txt
+./dataset/aesop_tale/어린 암소와 황소.txt	aesop73.txt
+./dataset/aesop_tale/몸이 부푼 여우.txt	aesop74.txt
+./dataset/aesop_tale/사자와 여우와 당나귀.txt	aesop75.txt
+./dataset/aesop_tale/여우와 가시나무.txt	aesop76.txt
+./dataset/aesop_tale/사냥꾼과 어부.txt	aesop77.txt
+./dataset/aesop_tale/노파와 의사.txt	aesop78.txt
+./dataset/aesop_tale/매와 솔개와 비둘기들.txt	aesop79.txt
+./dataset/aesop_tale/사냥꾼과 나무꾼.txt	aesop80.txt
+./dataset/aesop_tale/표범과 양치기들.txt	aesop81.txt
+./dataset/aesop_tale/위와 신체의 다른 부위들.txt	aesop82.txt
+./dataset/aesop_tale/백조와 거위.txt	aesop83.txt
+./dataset/aesop_tale/생쥐와 황소.txt	aesop84.txt
+./dataset/aesop_tale/흑인 노예.txt	aesop85.txt
+./dataset/aesop_tale/양치기와 개.txt	aesop86.txt
+./dataset/aesop_tale/늑대와 집 지키는 개.txt	aesop87.txt
+./dataset/aesop_tale/개미와 비둘기.txt	aesop88.txt
+./dataset/aesop_tale/제비와 뱀과 재판소.txt	aesop89.txt
+./dataset/aesop_tale/곰과 두 여행자.txt	aesop90.txt
+./dataset/aesop_tale/포도나무와 염소.txt	aesop91.txt
+./dataset/aesop_tale/헤라클레스와 마부.txt	aesop92.txt
+./dataset/aesop_tale/여행자와 그의 개.txt	aesop93.txt
+./dataset/aesop_tale/염소를 돌보는 사람과 야생 염소들.txt	aesop94.txt
+./dataset/aesop_tale/연못가의 수사슴.txt	aesop95.txt
+./dataset/aesop_tale/갈매기와 솔개.txt	aesop96.txt
+./dataset/aesop_tale/황금알을 낳는 암탉.txt	aesop97.txt
+./dataset/aesop_tale/태양에 향한 개구리들의 불평.txt	aesop98.txt
+./dataset/aesop_tale/늑대와 사자.txt	aesop99.txt
+./dataset/aesop_tale/양치기와 바다.txt	aesop100.txt
+./dataset/aesop_tale/노동자와 뱀.txt	aesop101.txt
+./dataset/aesop_tale/바닷가의 나그네들.txt	aesop102.txt
+./dataset/aesop_tale/애꾸눈 암사슴.txt	aesop103.txt
+./dataset/aesop_tale/사자와 곰과 여우.txt	aesop104.txt
+./dataset/aesop_tale/벌과 제우스.txt	aesop105.txt
+./dataset/aesop_tale/숯꾼과 빨래집 주인.txt	aesop106.txt
+./dataset/aesop_tale/원숭이 자녀들과 엄마 원숭이.txt	aesop107.txt
+./dataset/aesop_tale/방앗간 주인과 아들과 그들의 당나귀.txt	aesop108.txt
+./dataset/aesop_tale/구두쇠와 금덩이.txt	aesop109.txt
+./dataset/aesop_tale/뻐기는 여행자.txt	aesop110.txt
+./dataset/aesop_tale/독수리와 솔개.txt	aesop111.txt
+./dataset/aesop_tale/농부와 독수리.txt	aesop112.txt
+./dataset/aesop_tale/애만 쓰고 보람이 없는 일.txt	aesop113.txt
+./dataset/aesop_tale/우스꽝스런 당나귀.txt	aesop114.txt
+./dataset/aesop_tale/철학자와 개미들과 헤르메스.txt	aesop115.txt
+./dataset/aesop_tale/원숭이와 낙타.txt	aesop116.txt
+./dataset/aesop_tale/산토끼들과 개구리들.txt	aesop117.txt
+./dataset/aesop_tale/암탉과 제비.txt	aesop118.txt
+./dataset/aesop_tale/소금장수와 당나귀.txt	aesop119.txt
+./dataset/aesop_tale/소년과 개구리.txt	aesop120.txt
+./dataset/aesop_tale/당나귀와 그림자.txt	aesop121.txt
+./dataset/aesop_tale/과부와 어린 하녀들.txt	aesop122.txt
+./dataset/aesop_tale/수탉과 보석.txt	aesop123.txt
+./dataset/aesop_tale/벼룩과 사람.txt	aesop124.txt
+./dataset/aesop_tale/참나무와 나무꾼들.txt	aesop125.txt
+./dataset/aesop_tale/원숭이와 어부들.txt	aesop126.txt
+./dataset/aesop_tale/농부와 황새.txt	aesop127.txt
+./dataset/aesop_tale/여우와 나무꾼.txt	aesop128.txt
+./dataset/aesop_tale/황소와 굴대.txt	aesop129.txt
+./dataset/aesop_tale/조난당한 남자와 바다.txt	aesop130.txt
+./dataset/aesop_tale/어린 양과 늑대.txt	aesop131.txt
+./dataset/aesop_tale/헤르메스 신과 조각가.txt	aesop132.txt
+./dataset/aesop_tale/양가죽을 쓴 늑대.txt	aesop133.txt
+./dataset/aesop_tale/사자와 생쥐.txt	aesop134.txt
+./dataset/aesop_tale/당나귀와 그의 주인들.txt	aesop135.txt
+./dataset/aesop_tale/양치기 소년과 늑대.txt	aesop136.txt
+./dataset/aesop_tale/사자와 산토끼.txt	aesop137.txt
+./dataset/aesop_tale/생쥐와 개구리와 매.txt	aesop138.txt
+./dataset/aesop_tale/과부와 양.txt	aesop139.txt
+./dataset/aesop_tale/당나귀와 마부.txt	aesop140.txt
+./dataset/aesop_tale/두 여행자와 도끼.txt	aesop141.txt
+./dataset/aesop_tale/아픈 사자.txt	aesop142.txt
+./dataset/aesop_tale/생쥐들과 족제비들.txt	aesop143.txt
+./dataset/aesop_tale/염소와 염소를 돌보는 사람.txt	aesop144.txt
+./dataset/aesop_tale/박쥐와 족제비.txt	aesop145.txt
+./dataset/aesop_tale/사자와 양치기.txt	aesop146.txt
+./dataset/aesop_tale/당나귀와 개구리들.txt	aesop147.txt
+./dataset/aesop_tale/올리브나무와 무화과나무.txt	aesop148.txt
+./dataset/aesop_tale/당나귀와 군마.txt	aesop149.txt
+./dataset/aesop_tale/벼룩과 레슬링 선수.txt	aesop150.txt
+./dataset/aesop_tale/양치기와 늑대.txt	aesop151.txt
+./dataset/aesop_tale/개와 그림자.txt	aesop152.txt
+./dataset/aesop_tale/소년과 도토리들.txt	aesop153.txt
+./dataset/aesop_tale/대머리 신사와 파리.txt	aesop154.txt
+./dataset/aesop_tale/개구쟁이 개.txt	aesop155.txt
+./dataset/aesop_tale/새사냥꾼과 자고새와 수탉.txt	aesop156.txt
+./dataset/aesop_tale/메뚜기와 부엉이.txt	aesop157.txt
+./dataset/aesop_tale/진실의 여신과 나그네.txt	aesop158.txt
+./dataset/aesop_tale/황소와 염소.txt	aesop159.txt
+./dataset/aesop_tale/여행자들과 플라타너스.txt	aesop160.txt
+./dataset/aesop_tale/곰과 여우.txt	aesop161.txt
+./dataset/aesop_tale/여행자와 운명의 여신.txt	aesop162.txt
+./dataset/aesop_tale/자고새와 새사냥꾼.txt	aesop163.txt
+./dataset/aesop_tale/농부와 여우.txt	aesop164.txt
+./dataset/aesop_tale/암사슴과 사자.txt	aesop165.txt
+./dataset/aesop_tale/소외양간에 들어온 수사슴.txt	aesop166.txt
+./dataset/aesop_tale/까마귀와 양.txt	aesop167.txt
+./dataset/aesop_tale/여물통 속의 개.txt	aesop168.txt
+./dataset/aesop_tale/독수리와 화살.txt	aesop169.txt
+./dataset/aesop_tale/장미와 시들지 않는 꽃.txt	aesop170.txt
+./dataset/aesop_tale/여우와 염소.txt	aesop171.txt
+./dataset/aesop_tale/고양이와 비너스.txt	aesop172.txt
+./dataset/aesop_tale/두 마리 개구리.txt	aesop173.txt
+./dataset/aesop_tale/말과 말 타는 사람.txt	aesop174.txt
+./dataset/aesop_tale/노인과 죽음.txt	aesop175.txt
+./dataset/aesop_tale/대머리 기사.txt	aesop176.txt
+./dataset/aesop_tale/개와 굴.txt	aesop177.txt
+./dataset/aesop_tale/토끼와 거북이.txt	aesop178.txt
+./dataset/aesop_tale/노새들과 강도들.txt	aesop179.txt
+./dataset/aesop_tale/어린돼지와 양과 염소.txt	aesop180.txt
+./dataset/aesop_tale/황소와 개구리.txt	aesop181.txt
+./dataset/aesop_tale/안주인과 암탉.txt	aesop182.txt
+./dataset/aesop_tale/두더지와 엄마.txt	aesop183.txt
+./dataset/aesop_tale/아빠를 묻어드린 종달새.txt	aesop184.txt
+./dataset/aesop_tale/개미와 베짱이.txt	aesop185.txt
+./dataset/aesop_tale/두 개의 항아리.txt	aesop186.txt
+./dataset/aesop_tale/개들과 생가죽.txt	aesop187.txt
+./dataset/aesop_tale/고양이와 생쥐들.txt	aesop188.txt
+./dataset/aesop_tale/낙타와 아랍민족.txt	aesop189.txt
+./dataset/aesop_tale/사자 왕국.txt	aesop190.txt
+./dataset/aesop_tale/어릿광대와 촌뜨기.txt	aesop191.txt
+./dataset/aesop_tale/늙은 사냥개.txt	aesop192.txt
+./dataset/aesop_tale/개 두 마리.txt	aesop193.txt
+./dataset/aesop_tale/고양이 목에 방울 달기.txt	aesop194.txt
+./dataset/aesop_tale/사자와 여우.txt	aesop195.txt
+./dataset/aesop_tale/사자와 멧돼지.txt	aesop196.txt
+./dataset/aesop_tale/당나귀와 말.txt	aesop197.txt
+./dataset/aesop_tale/아버지와 아들들.txt	aesop198.txt
+./dataset/aesop_tale/산토끼들과 여우들.txt	aesop199.txt
+./dataset/aesop_tale/야생 당나귀와 사자.txt	aesop200.txt
+./dataset/aesop_tale/군마와 방앗간 주인.txt	aesop201.txt
+./dataset/aesop_tale/새끼염소와 늑대.txt	aesop202.txt
+./dataset/aesop_tale/당나귀와 늙은 양치기.txt	aesop203.txt
+./dataset/aesop_tale/피리 부는 어부.txt	aesop204.txt
+./dataset/aesop_tale/당나귀와 수탉과 사자.txt	aesop205.txt
+./dataset/aesop_tale/전나무와 가시나무.txt	aesop206.txt
+./dataset/aesop_tale/참나무들과 제우스.txt	aesop207.txt
+./dataset/aesop_tale/신들이 보호하는 나무들.txt	aesop208.txt
+./dataset/aesop_tale/늑대들과 양.txt	aesop209.txt
+./dataset/aesop_tale/어미 개와 새끼들.txt	aesop210.txt
+./dataset/aesop_tale/파리들과 꿀단지.txt	aesop211.txt
+./dataset/aesop_tale/소년과 쐐기풀.txt	aesop212.txt
+./dataset/aesop_tale/농부와 독사.txt	aesop213.txt
+./dataset/aesop_tale/춤추는 원숭이들.txt	aesop214.txt
+./dataset/aesop_tale/메뚜기 잡으려다 일낸 소년.txt	aesop215.txt
+./dataset/aesop_tale/솔개들과 백조들.txt	aesop216.txt
+./dataset/aesop_tale/까마귀와 백조.txt	aesop217.txt
+./dataset/aesop_tale/사자와 제우스와 코끼리.txt	aesop218.txt
+./dataset/aesop_tale/늑대와 양.txt	aesop219.txt
+./dataset/aesop_tale/고양이와 새들.txt	aesop220.txt
+./dataset/aesop_tale/게와 엄마.txt	aesop221.txt
+./dataset/aesop_tale/헤르메스 신상과 목수.txt	aesop222.txt
+./dataset/cheongwadae_tale/No.69  생쥐와 도사.txt	cheongwadae1.txt
+./dataset/cheongwadae_tale/No.85  무와 바꾼 송아지 .txt	cheongwadae2.txt
+./dataset/cheongwadae_tale/No.10  우렁각시 이야기.txt	cheongwadae3.txt
+./dataset/cheongwadae_tale/No.27  말하는 남생이.txt	cheongwadae4.txt
+./dataset/cheongwadae_tale/No.16  밤송이에게 절한 호랑이.txt	cheongwadae5.txt
+./dataset/cheongwadae_tale/No.6  소가 된 게으름뱅이 .txt	cheongwadae6.txt
+./dataset/cheongwadae_tale/No.64  몹쓸 짓을 한 독수리.txt	cheongwadae7.txt
+./dataset/cheongwadae_tale/No.24  깨진 도자기.txt	cheongwadae8.txt
+./dataset/cheongwadae_tale/No.9  금구슬을 버린 형제.txt	cheongwadae9.txt
+./dataset/cheongwadae_tale/No.68  하늘은 안다.txt	cheongwadae10.txt
+./dataset/cheongwadae_tale/No.72  말 흉내내는 도깨비.txt	cheongwadae11.txt
+./dataset/cheongwadae_tale/No.60  새 망태기 헌 망태기.txt	cheongwadae12.txt
+./dataset/cheongwadae_tale/No.93  떼굴떼굴 떡시루 잡기 .txt	cheongwadae13.txt
+./dataset/cheongwadae_tale/No.81  늴리리 쿵더쿵!.txt	cheongwadae14.txt
+./dataset/cheongwadae_tale/No.18  청개구리 이야기.txt	cheongwadae15.txt
+./dataset/cheongwadae_tale/No.75  오늘이.txt	cheongwadae16.txt
+./dataset/cheongwadae_tale/No.62  옹고집전.txt	cheongwadae17.txt
+./dataset/cheongwadae_tale/No.42  용왕님의 딸, 잉어 색시.txt	cheongwadae18.txt
+./dataset/cheongwadae_tale/No.4  금도끼, 은도끼.txt	cheongwadae19.txt
+./dataset/cheongwadae_tale/No.71  김홍도 그림에 얽힌 이야기.txt	cheongwadae20.txt
+./dataset/cheongwadae_tale/No.20  개가 된 범.txt	cheongwadae21.txt
+./dataset/cheongwadae_tale/No.15  반쪽이.txt	cheongwadae22.txt
+./dataset/cheongwadae_tale/No.95  망부석 재판 .txt	cheongwadae23.txt
+./dataset/cheongwadae_tale/No.28  참외와 황소.txt	cheongwadae24.txt
+./dataset/cheongwadae_tale/No.25  꽃나라 임금님.txt	cheongwadae25.txt
+./dataset/cheongwadae_tale/No.40  빨간 `백일홍`에 얽힌 슬픈 이야기.txt	cheongwadae26.txt
+./dataset/cheongwadae_tale/No.78  부엉이를 잡은 젊은이.txt	cheongwadae27.txt
+./dataset/cheongwadae_tale/No.36  젊어지는 샘물.txt	cheongwadae28.txt
+./dataset/cheongwadae_tale/No.80  거울을 처음 본 사람들.txt	cheongwadae29.txt
+./dataset/cheongwadae_tale/No.99  밥만 먹는 밥벌레 장군.txt	cheongwadae30.txt
+./dataset/cheongwadae_tale/No.12  방귀쟁이 며느리 .txt	cheongwadae31.txt
+./dataset/cheongwadae_tale/No.48  도깨비 방망이와 개암.txt	cheongwadae32.txt
+./dataset/cheongwadae_tale/No.76  종이에 싼 당나귀.txt	cheongwadae33.txt
+./dataset/cheongwadae_tale/No.41  황부자의 며느리뽑기.txt	cheongwadae34.txt
+./dataset/cheongwadae_tale/No.79  구렁덩덩 새신랑 .txt	cheongwadae35.txt
+./dataset/cheongwadae_tale/No.38  할머니꽃 할미꽃.txt	cheongwadae36.txt
+./dataset/cheongwadae_tale/No.23  돌부처에게 비단을 판 바보.txt	cheongwadae37.txt
+./dataset/cheongwadae_tale/No.35  임금님 귀는 당나귀 귀.txt	cheongwadae38.txt
+./dataset/cheongwadae_tale/No.55  솥 안에 든 거인.txt	cheongwadae39.txt
+./dataset/cheongwadae_tale/No.77  깨끗해서 좋아요!.txt	cheongwadae40.txt
+./dataset/cheongwadae_tale/No.51  자기를 도둑맞은 도령.txt	cheongwadae41.txt
+./dataset/cheongwadae_tale/No.74  설문대할망.txt	cheongwadae42.txt
+./dataset/cheongwadae_tale/No.90  은혜 갚은 호랑이.txt	cheongwadae43.txt
+./dataset/cheongwadae_tale/No.83  꽁지 닷 발 주둥이 닷 발.txt	cheongwadae44.txt
+./dataset/cheongwadae_tale/No.57  도깨비를 물리친 사물놀이.txt	cheongwadae45.txt
+./dataset/cheongwadae_tale/No.94  여우누이 .txt	cheongwadae46.txt
+./dataset/cheongwadae_tale/No.47  기적의 우물.txt	cheongwadae47.txt
+./dataset/cheongwadae_tale/No.63  거울을 처음 본 사람들.txt	cheongwadae48.txt
+./dataset/cheongwadae_tale/No.96  호랑이 형님 .txt	cheongwadae49.txt
+./dataset/cheongwadae_tale/No.43  이상한 나뭇잎.txt	cheongwadae50.txt
+./dataset/cheongwadae_tale/No.73  까치와 호랑이와 토끼.txt	cheongwadae51.txt
+./dataset/cheongwadae_tale/No.70  날마다 서 푼.txt	cheongwadae52.txt
+./dataset/cheongwadae_tale/No.50  암행어사 이야기.txt	cheongwadae53.txt
+./dataset/cheongwadae_tale/No.29  코 없는 신랑과 입 큰 각시.txt	cheongwadae54.txt
+./dataset/cheongwadae_tale/No.53  멸치의 꿈.txt	cheongwadae55.txt
+./dataset/cheongwadae_tale/No.3  심청전.txt	cheongwadae56.txt
+./dataset/cheongwadae_tale/No.46  하늘을 나는 민들레.txt	cheongwadae57.txt
+./dataset/cheongwadae_tale/No.37  내 방귀가 최고야!.txt	cheongwadae58.txt
+./dataset/cheongwadae_tale/No.66  호랑이를 잡은 바보.txt	cheongwadae59.txt
+./dataset/cheongwadae_tale/No.56  호랑이와 곶감.txt	cheongwadae60.txt
+./dataset/cheongwadae_tale/No.91  장님과 앉은뱅이.txt	cheongwadae61.txt
+./dataset/cheongwadae_tale/No.8  개와 고양이.txt	cheongwadae62.txt
+./dataset/cheongwadae_tale/No.49  방울사또의 명판결.txt	cheongwadae63.txt
+./dataset/cheongwadae_tale/No.31  개똥에서 피어난 개나리.txt	cheongwadae64.txt
+./dataset/cheongwadae_tale/No.97  용이 되지 못한 이무기 .txt	cheongwadae65.txt
+./dataset/cheongwadae_tale/No.84  사자의 꾀 .txt	cheongwadae66.txt
+./dataset/cheongwadae_tale/No.14  요술부채.txt	cheongwadae67.txt
+./dataset/cheongwadae_tale/No.39  사이좋은 형제.txt	cheongwadae68.txt
+./dataset/cheongwadae_tale/No.13  효녀심청 .txt	cheongwadae69.txt
+./dataset/cheongwadae_tale/No.11  혹부리 할아버지.txt	cheongwadae70.txt
+./dataset/cheongwadae_tale/No.100  별난 재주 삼형제.txt	cheongwadae71.txt
+./dataset/cheongwadae_tale/No.59  떡보 만세.txt	cheongwadae72.txt
+./dataset/cheongwadae_tale/No.87  주먹밥이 열리는 나무 .txt	cheongwadae73.txt
+./dataset/cheongwadae_tale/No.58  농부와 산신령.txt	cheongwadae74.txt
+./dataset/cheongwadae_tale/No.33  임금이 되는 양꿈.txt	cheongwadae75.txt
+./dataset/cheongwadae_tale/No.88  바보사또.txt	cheongwadae76.txt
+./dataset/cheongwadae_tale/No.5  선녀와 나무꾼.txt	cheongwadae77.txt
+./dataset/cheongwadae_tale/No.30  호랑이가 준 보자기.txt	cheongwadae78.txt
+./dataset/cheongwadae_tale/No.44  척척꼼꼼댁네 옷 가게.txt	cheongwadae79.txt
+./dataset/cheongwadae_tale/No.21  북두칠성이 된 일곱 형제.txt	cheongwadae80.txt
+./dataset/cheongwadae_tale/No.54  소처럼 커지고 싶은 개구리 .txt	cheongwadae81.txt
+./dataset/cheongwadae_tale/No.19  견우와 직녀.txt	cheongwadae82.txt
+./dataset/cheongwadae_tale/No.1  전래동화 흥부전.txt	cheongwadae83.txt
+./dataset/cheongwadae_tale/No.82  팥죽 호랑이와 일곱 녀석.txt	cheongwadae84.txt
+./dataset/cheongwadae_tale/No.22  꾀 많은 토끼.txt	cheongwadae85.txt
+./dataset/cheongwadae_tale/No.26  거울 소동.txt	cheongwadae86.txt
+./dataset/cheongwadae_tale/No.52  하늘천 따지 가마솥에 누룽지.txt	cheongwadae87.txt
+./dataset/cheongwadae_tale/No.86  호랑이 뱃속 구경.txt	cheongwadae88.txt
+./dataset/cheongwadae_tale/No.2  은혜갚은 까치.txt	cheongwadae89.txt
+./dataset/cheongwadae_tale/No.17  팥죽할머니와 호랑이.txt	cheongwadae90.txt
+./dataset/cheongwadae_tale/No.98  씨 뿌리는 강아지 .txt	cheongwadae91.txt
+./dataset/cheongwadae_tale/No.45  그늘 값 닷 냥.txt	cheongwadae92.txt
+./dataset/cheongwadae_tale/No.34  사윗감 찾아 나선 쥐.txt	cheongwadae93.txt
+./dataset/cheongwadae_tale/No.65  좁쌀 한 톨.txt	cheongwadae94.txt
+./dataset/cheongwadae_tale/No.61  선비와 도둑.txt	cheongwadae95.txt
+./dataset/cheongwadae_tale/No.32  금도끼와 은도끼.txt	cheongwadae96.txt
+./dataset/cheongwadae_tale/No.7  토끼와 자라 .txt	cheongwadae97.txt
+./dataset/cheongwadae_tale/No.67  황금알을 낳는 거위.txt	cheongwadae98.txt
+./dataset/cheongwadae_tale/No.89  꼬리로 낚시하는 호랑이 .txt	cheongwadae99.txt
+./dataset/cheongwadae_tale/No.92  삼 년 고개.txt	cheongwadae100.txt
+./dataset/sinchun_tale/광남일보-홍송희-댄스톡톡.txt	sinchun1.txt
+./dataset/sinchun_tale/경남신문-김경애-버스정류장.txt	sinchun2.txt
+./dataset/sinchun_tale/조선일보-김다혜-끼리끼리 마을.txt	sinchun3.txt
+./dataset/sinchun_tale/sinchun3.txt	sinchun4.txt
+./dataset/sinchun_tale/경남신문-남경희-내이름은 구름이.txt	sinchun5.txt
+./dataset/sinchun_tale/동아일보-김란-아무일도아닌것같지만.txt	sinchun6.txt
+./dataset/sinchun_tale/강원일보-김응현-목각인형.txt	sinchun7.txt
+./dataset/sinchun_tale/매일신문-지윤경-지켜보고 있다.txt	sinchun8.txt
+./dataset/sinchun_tale/매일신문-박규연-우리집에 놀러와.txt	sinchun9.txt
+./dataset/sinchun_tale/sinchun2.txt	sinchun10.txt
+./dataset/sinchun_tale/부산일보-지숙희-용기 내 몽고.txt	sinchun11.txt
+./dataset/sinchun_tale/경상일보-윤혜경-범인은 누구.txt	sinchun12.txt
+./dataset/sinchun_tale/전북일보-박영미-지하철역 아이.txt	sinchun13.txt
+./dataset/sinchun_tale/국제신문-김은희-동백 101호.txt	sinchun14.txt
+./dataset/sinchun_tale/전북일보-전소현-괴물 아이.txt	sinchun15.txt
+./dataset/sinchun_tale/부산일보-이재민-할배 바리스타와 원두 그리고 사막여우.txt	sinchun16.txt
+./dataset/sinchun_tale/한국일보-성욱현-현우의 동굴.txt	sinchun17.txt
+./dataset/sinchun_tale/무등일보-김태희-외로움담당관.txt	sinchun18.txt
+./dataset/sinchun_tale/서울신문-김상화-연우의 재미있는 일기쓰기 기계.txt	sinchun19.txt
+./dataset/sinchun_tale/불교신문-윤성은-내이름은콩떡이었지.txt	sinchun20.txt
+./dataset/sinchun_tale/불교신문-한상희-숲속의 우정.txt	sinchun21.txt
+./dataset/sinchun_tale/filenames.txt	sinchun22.txt
+./dataset/sinchun_tale/한국일보-김세실-떨어져 본 적도 없으면서.txt	sinchun23.txt
+./dataset/sinchun_tale/강원일보-이지요-광개토여왕.txt	sinchun24.txt
+./dataset/sinchun_tale/sinchun4.txt	sinchun25.txt
+./dataset/sinchun_tale/광남일보-박청림-먹는 책.txt	sinchun26.txt
+./dataset/sinchun_tale/국제신문-박나현-아디동 블루스.txt	sinchun27.txt
+./dataset/sinchun_tale/무등일보-소지연-가짜 일등.txt	sinchun28.txt
+./dataset/sinchun_tale/동아일보-김은아-니들이 사춘기를 알어.txt	sinchun29.txt
+./dataset/sinchun_tale/sinchun1.txt	sinchun30.txt
+./dataset/sinchun_tale/조선일보-조숙경-나도 심심해.txt	sinchun31.txt
+./dataset/sinchun_tale/서울신문-조은비-사랑해.txt	sinchun32.txt
+./dataset/sinchun_tale/문화일보-최정희-농구의신.txt	sinchun33.txt
+./dataset/sinchun_tale/경상일보-문일지-분홍물고기.txt	sinchun34.txt
+./dataset/sinchun_tale/문화일보-정승진-손톱.txt	sinchun35.txt

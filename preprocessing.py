@@ -38,7 +38,7 @@ def preprocessing(dir,filename):
                     # 문장 분리
                     line_list = split_sentences(line,use_heuristic=True,use_quotes_brackets_processing=True)
                     for line in line_list:
-                        line = '</s>' + line + '</s>'
+                        line = '</s>' + line.strip() + '</s>'
                         result.append(line)
         
             new_file = open(os.path.join(dir,filename+str(i)+ext),'w', encoding='utf-8')
@@ -60,7 +60,7 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--dir', type=str, default='./dataset/그림형제동화집_전처리', help='data dir(default: ./dataset/그림형제동화집_전처리)')
+    parser.add_argument('--dir', type=str, default='./dataset/grimm_tale', help='data dir(default: ./dataset/grimm)')
     parser.add_argument('--filename', type=str, default='grimm', help='data filename(default: grimm)')
 
     args = parser.parse_args()
