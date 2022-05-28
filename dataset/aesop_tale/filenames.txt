@@ -1,0 +1,136 @@
+./dataset/aesop_tale/여우와 원숭이.txt	aesop1.txt
+./dataset/aesop_tale/산토끼와 사냥개.txt	aesop2.txt
+./dataset/aesop_tale/놋그릇을 만드는 사람과 그의 개.txt	aesop3.txt
+./dataset/aesop_tale/사자와 돌고래.txt	aesop4.txt
+./dataset/aesop_tale/남자와 두 애인.txt	aesop5.txt
+./dataset/aesop_tale/강들과 바다.txt	aesop6.txt
+./dataset/aesop_tale/나무들과 도끼.txt	aesop7.txt
+./dataset/aesop_tale/늑대와 두루미.txt	aesop8.txt
+./dataset/aesop_tale/여우와 표범.txt	aesop9.txt
+./dataset/aesop_tale/두 병사와 강도.txt	aesop10.txt
+./dataset/aesop_tale/램프.txt	aesop11.txt
+./dataset/aesop_tale/싸움닭들과 독수리.txt	aesop12.txt
+./dataset/aesop_tale/양치기와 양.txt	aesop13.txt
+./dataset/aesop_tale/새끼 사슴과 그의 엄마.txt	aesop14.txt
+./dataset/aesop_tale/도둑들과 수탉.txt	aesop15.txt
+./dataset/aesop_tale/갈까마귀와 여우.txt	aesop16.txt
+./dataset/aesop_tale/천문학자.txt	aesop17.txt
+./dataset/aesop_tale/모기와 황소.txt	aesop18.txt
+./dataset/aesop_tale/주인과 개들.txt	aesop19.txt
+./dataset/aesop_tale/나이 먹은 사자.txt	aesop20.txt
+./dataset/aesop_tale/참나무와 갈대.txt	aesop21.txt
+./dataset/aesop_tale/거북과 독수리.txt	aesop22.txt
+./dataset/aesop_tale/늑대들과 양치기 개들.txt	aesop23.txt
+./dataset/aesop_tale/당나귀와 애완견.txt	aesop24.txt
+./dataset/aesop_tale/도둑과 엄마.txt	aesop25.txt
+./dataset/aesop_tale/농장에 들어간 사자.txt	aesop26.txt
+./dataset/aesop_tale/소들과 푸줏간 주인들.txt	aesop27.txt
+./dataset/aesop_tale/농부와 아들들.txt	aesop28.txt
+./dataset/aesop_tale/늑대와 어린양.txt	aesop29.txt
+./dataset/aesop_tale/목마른 비둘기.txt	aesop30.txt
+./dataset/aesop_tale/당나귀와 여우와 사자.txt	aesop31.txt
+./dataset/aesop_tale/노파와 포도주 병.txt	aesop32.txt
+./dataset/aesop_tale/부자와 가죽상인.txt	aesop33.txt
+./dataset/aesop_tale/허영심 강한 갈까마귀.txt	aesop34.txt
+./dataset/aesop_tale/고양이와 수탉.txt	aesop35.txt
+./dataset/aesop_tale/목동과 잃어버린 황소.txt	aesop36.txt
+./dataset/aesop_tale/어부와 작은 물고기.txt	aesop37.txt
+./dataset/aesop_tale/어부와 그물.txt	aesop38.txt
+./dataset/aesop_tale/사자와 생쥐와 여우.txt	aesop39.txt
+./dataset/aesop_tale/독사와 철공용줄.txt	aesop40.txt
+./dataset/aesop_tale/우유 짜는 소녀와 들통.txt	aesop41.txt
+./dataset/aesop_tale/왕을 바라는 개구리들.txt	aesop42.txt
+./dataset/aesop_tale/사람과 사자.txt	aesop43.txt
+./dataset/aesop_tale/여우와 까마귀.txt	aesop44.txt
+./dataset/aesop_tale/사자와 독수리.txt	aesop45.txt
+./dataset/aesop_tale/개에게 물린 남자.txt	aesop46.txt
+./dataset/aesop_tale/신의 조각상을 운반한 나귀.txt	aesop47.txt
+./dataset/aesop_tale/독수리와 새잡이.txt	aesop48.txt
+./dataset/aesop_tale/까마귀와 갈까마귀.txt	aesop49.txt
+./dataset/aesop_tale/개똥지빠귀와 새 사냥꾼.txt	aesop50.txt
+./dataset/aesop_tale/제비와 까마귀.txt	aesop51.txt
+./dataset/aesop_tale/멧돼지와 여우.txt	aesop52.txt
+./dataset/aesop_tale/병든 수사슴.txt	aesop53.txt
+./dataset/aesop_tale/사랑에 빠진 사자.txt	aesop54.txt
+./dataset/aesop_tale/제우스와 원숭이.txt	aesop55.txt
+./dataset/aesop_tale/암사자.txt	aesop56.txt
+./dataset/aesop_tale/왕자님과 사자그림.txt	aesop57.txt
+./dataset/aesop_tale/암염소와 턱수염.txt	aesop58.txt
+./dataset/aesop_tale/병든 솔개.txt	aesop59.txt
+./dataset/aesop_tale/까마귀와 뱀.txt	aesop60.txt
+./dataset/aesop_tale/황소와 암사자와 멧돼지 사냥꾼.txt	aesop61.txt
+./dataset/aesop_tale/당나귀와 노새.txt	aesop62.txt
+./dataset/aesop_tale/사냥꾼과 말을 탄 사람.txt	aesop63.txt
+./dataset/aesop_tale/아빠와 두 딸.txt	aesop64.txt
+./dataset/aesop_tale/개와 요리사.txt	aesop65.txt
+./dataset/aesop_tale/농부와 학들.txt	aesop66.txt
+./dataset/aesop_tale/게와 여우.txt	aesop67.txt
+./dataset/aesop_tale/꼬리 잘린 여우.txt	aesop68.txt
+./dataset/aesop_tale/세 명의 상인.txt	aesop69.txt
+./dataset/aesop_tale/돌고래들과 고래들과 같잖은 청어.txt	aesop70.txt
+./dataset/aesop_tale/농부와 사과나무.txt	aesop71.txt
+./dataset/aesop_tale/아기엄마와 늑대.txt	aesop72.txt
+./dataset/aesop_tale/어린 암소와 황소.txt	aesop73.txt
+./dataset/aesop_tale/몸이 부푼 여우.txt	aesop74.txt
+./dataset/aesop_tale/사자와 여우와 당나귀.txt	aesop75.txt
+./dataset/aesop_tale/여우와 가시나무.txt	aesop76.txt
+./dataset/aesop_tale/사냥꾼과 어부.txt	aesop77.txt
+./dataset/aesop_tale/노파와 의사.txt	aesop78.txt
+./dataset/aesop_tale/매와 솔개와 비둘기들.txt	aesop79.txt
+./dataset/aesop_tale/사냥꾼과 나무꾼.txt	aesop80.txt
+./dataset/aesop_tale/표범과 양치기들.txt	aesop81.txt
+./dataset/aesop_tale/위와 신체의 다른 부위들.txt	aesop82.txt
+./dataset/aesop_tale/백조와 거위.txt	aesop83.txt
+./dataset/aesop_tale/생쥐와 황소.txt	aesop84.txt
+./dataset/aesop_tale/흑인 노예.txt	aesop85.txt
+./dataset/aesop_tale/양치기와 개.txt	aesop86.txt
+./dataset/aesop_tale/늑대와 집 지키는 개.txt	aesop87.txt
+./dataset/aesop_tale/개미와 비둘기.txt	aesop88.txt
+./dataset/aesop_tale/제비와 뱀과 재판소.txt	aesop89.txt
+./dataset/aesop_tale/곰과 두 여행자.txt	aesop90.txt
+./dataset/aesop_tale/포도나무와 염소.txt	aesop91.txt
+./dataset/aesop_tale/헤라클레스와 마부.txt	aesop92.txt
+./dataset/aesop_tale/여행자와 그의 개.txt	aesop93.txt
+./dataset/aesop_tale/염소를 돌보는 사람과 야생 염소들.txt	aesop94.txt
+./dataset/aesop_tale/연못가의 수사슴.txt	aesop95.txt
+./dataset/aesop_tale/갈매기와 솔개.txt	aesop96.txt
+./dataset/aesop_tale/황금알을 낳는 암탉.txt	aesop97.txt
+./dataset/aesop_tale/태양에 향한 개구리들의 불평.txt	aesop98.txt
+./dataset/aesop_tale/늑대와 사자.txt	aesop99.txt
+./dataset/aesop_tale/양치기와 바다.txt	aesop100.txt
+./dataset/aesop_tale/노동자와 뱀.txt	aesop101.txt
+./dataset/aesop_tale/바닷가의 나그네들.txt	aesop102.txt
+./dataset/aesop_tale/애꾸눈 암사슴.txt	aesop103.txt
+./dataset/aesop_tale/사자와 곰과 여우.txt	aesop104.txt
+./dataset/aesop_tale/벌과 제우스.txt	aesop105.txt
+./dataset/aesop_tale/숯꾼과 빨래집 주인.txt	aesop106.txt
+./dataset/aesop_tale/원숭이 자녀들과 엄마 원숭이.txt	aesop107.txt
+./dataset/aesop_tale/방앗간 주인과 아들과 그들의 당나귀.txt	aesop108.txt
+./dataset/aesop_tale/구두쇠와 금덩이.txt	aesop109.txt
+./dataset/aesop_tale/뻐기는 여행자.txt	aesop110.txt
+./dataset/aesop_tale/독수리와 솔개.txt	aesop111.txt
+./dataset/aesop_tale/농부와 독수리.txt	aesop112.txt
+./dataset/aesop_tale/애만 쓰고 보람이 없는 일.txt	aesop113.txt
+./dataset/aesop_tale/우스꽝스런 당나귀.txt	aesop114.txt
+./dataset/aesop_tale/철학자와 개미들과 헤르메스.txt	aesop115.txt
+./dataset/aesop_tale/원숭이와 낙타.txt	aesop116.txt
+./dataset/aesop_tale/산토끼들과 개구리들.txt	aesop117.txt
+./dataset/aesop_tale/암탉과 제비.txt	aesop118.txt
+./dataset/aesop_tale/소금장수와 당나귀.txt	aesop119.txt
+./dataset/aesop_tale/소년과 개구리.txt	aesop120.txt
+./dataset/aesop_tale/당나귀와 그림자.txt	aesop121.txt
+./dataset/aesop_tale/과부와 어린 하녀들.txt	aesop122.txt
+./dataset/aesop_tale/수탉과 보석.txt	aesop123.txt
+./dataset/aesop_tale/벼룩과 사람.txt	aesop124.txt
+./dataset/aesop_tale/참나무와 나무꾼들.txt	aesop125.txt
+./dataset/aesop_tale/원숭이와 어부들.txt	aesop126.txt
+./dataset/aesop_tale/농부와 황새.txt	aesop127.txt
+./dataset/aesop_tale/여우와 나무꾼.txt	aesop128.txt
+./dataset/aesop_tale/황소와 굴대.txt	aesop129.txt
+./dataset/aesop_tale/조난당한 남자와 바다.txt	aesop130.txt
+./dataset/aesop_tale/어린 양과 늑대.txt	aesop131.txt
+./dataset/aesop_tale/헤르메스 신과 조각가.txt	aesop132.txt
+./dataset/aesop_tale/양가죽을 쓴 늑대.txt	aesop133.txt
+./dataset/aesop_tale/사자와 생쥐.txt	aesop134.txt
+./dataset/aesop_tale/당나귀와 그의 주인들.txt	aesop135.txt
+./dataset/aesop_tale/양치기 소년과 늑대.txt	aesop136.txt
