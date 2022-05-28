@@ -74,7 +74,7 @@ def train(
 ## Main
 def main():
     # 모델명, 데이터 위치, 모델 저장위치, Training arguments를 정의합니다.
-    train_file_path = './concate_tale_copy.txt'
+    train_file_path = './final_final_train.txt'
     model_name = 'skt/kogpt2-base-v2'
     output_dir = './output'
     overwrite_output_dir = False

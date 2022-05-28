@@ -1,3 +1,5 @@
+import torch
+import torch.nn.functional as F
 from typing import NoReturn
 from transformers import (
     TextDataset,
@@ -7,8 +9,12 @@ from transformers import (
     TrainingArguments,
     AutoTokenizer
 )
-import torch
- 
+
+def perplexity(output, target):
+    zero_output = torch.zeros_like(target)
+
+    loss = F.cross_entropy(output,target)
+    return torch.exp(loss)
 
 def load_dataset(file_path, tokenizer, block_size = 128):
     dataset = TextDataset(
@@ -48,7 +54,9 @@ def train(
     
     model = AutoModelForCausalLM.from_pretrained(
         model_name, 
-        pad_token_id=tokenizer.eos_token_id,
+        pad_token_id=tokenizer.pad_token_id,
+        bos_token_id=tokenizer.bos_token_id,
+        eos_token_id=tokenizer.eos_token_id,
         torch_dtype='auto', low_cpu_mem_usage=True
         ).to(device='cuda', non_blocking=True)
 
@@ -80,12 +88,12 @@ def train(
 def main():
     torch.cuda.empty_cache()
     # 모델명, 데이터 위치, 모델 저장위치, Training arguments를 정의합니다.
-    train_file_path = './concate_tale_copy.txt'
+    train_file_path = './final_final_train.txt'
     model_name = 'skt/ko-gpt-trinity-1.2B-v0.5'
     output_dir = './output'
     overwrite_output_dir = False
-    per_device_train_batch_size = 4 # batch 사이즈 조절 시 oom이 발생할 수 있습니다...
-    num_train_epochs = 10
+    per_device_train_batch_size = 8 # batch 사이즈 조절 시 oom이 발생할 수 있습니다...
+    num_train_epochs = 20
     save_steps = 500
     
     print(f'Modle is {model_name}')

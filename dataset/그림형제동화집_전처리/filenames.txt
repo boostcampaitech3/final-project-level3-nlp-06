@@ -1,0 +1,105 @@
+./dataset/그림형제동화집_전처리/고양이와 쥐의 파트너십.txt	grimm1.txt
+./dataset/그림형제동화집_전처리/거인과 재봉사.txt	grimm2.txt
+./dataset/그림형제동화집_전처리/은혜를 모르는 아들.txt	grimm3.txt
+./dataset/그림형제동화집_전처리/달콤한오트밀.txt	grimm4.txt
+./dataset/그림형제동화집_전처리/개암나무 가지.txt	grimm5.txt
+./dataset/그림형제동화집_전처리/늑대와 일곱 마리의 어린 염소들.txt	grimm6.txt
+./dataset/그림형제동화집_전처리/구둣방 주인 송곳 씨.txt	grimm7.txt
+./dataset/그림형제동화집_전처리/두 형제.txt	grimm8.txt
+./dataset/그림형제동화집_전처리/세 장의 뱀 잎.txt	grimm9.txt
+./dataset/그림형제동화집_전처리/어린 양과 작은 물고기.txt	grimm10.txt
+./dataset/그림형제동화집_전처리/최고의 도둑.txt	grimm11.txt
+./dataset/그림형제동화집_전처리/당나귀양배추.txt	grimm12.txt
+./dataset/그림형제동화집_전처리/노래하는 뼈.txt	grimm13.txt
+./dataset/그림형제동화집_전처리/늑대와 여우.txt	grimm14.txt
+./dataset/그림형제동화집_전처리/장미.txt	grimm15.txt
+./dataset/그림형제동화집_전처리/세 개의 깃털.txt	grimm16.txt
+./dataset/그림형제동화집_전처리/지푸라기, 숯, 콩.txt	grimm17.txt
+./dataset/그림형제동화집_전처리/디트마르쉬의 허풍.txt	grimm18.txt
+./dataset/그림형제동화집_전처리/예쁜 카트리넬리에와 핍 팝 폴트리.txt	grimm19.txt
+./dataset/그림형제동화집_전처리/영리한꼬마재단사.txt	grimm20.txt
+./dataset/그림형제동화집_전처리/충신 요하네스.txt	grimm21.txt
+./dataset/그림형제동화집_전처리/암탉의 죽음.txt	grimm22.txt
+./dataset/그림형제동화집_전처리/푸른 나뭇가지 세 개.txt	grimm23.txt
+./dataset/그림형제동화집_전처리/용감한 꼬마 재봉사.txt	grimm24.txt
+./dataset/그림형제동화집_전처리/노간주나무.txt	grimm25.txt
+./dataset/그림형제동화집_전처리/노인과 손자.txt	grimm26.txt
+./dataset/그림형제동화집_전처리/늙은 개 술탄.txt	grimm27.txt
+./dataset/그림형제동화집_전처리/황금 거위.txt	grimm28.txt
+./dataset/그림형제동화집_전처리/숲 속의 세 난쟁이.txt	grimm29.txt
+./dataset/그림형제동화집_전처리/신붓감 고르기.txt	grimm30.txt
+./dataset/그림형제동화집_전처리/트루데 아주머니.txt	grimm31.txt
+./dataset/그림형제동화집_전처리/한스결혼하다.txt	grimm32.txt
+./dataset/그림형제동화집_전처리/크노이스트와 세 아들.txt	grimm33.txt
+./dataset/그림형제동화집_전처리/젖과 꿀이 흐르는 땅에 관한 이야기.txt	grimm34.txt
+./dataset/그림형제동화집_전처리/물의 요정.txt	grimm35.txt
+./dataset/그림형제동화집_전처리/숲 속의 오두막집.txt	grimm36.txt
+./dataset/그림형제동화집_전처리/삼형제의 행운.txt	grimm37.txt
+./dataset/그림형제동화집_전처리/라푼첼.txt	grimm38.txt
+./dataset/그림형제동화집_전처리/배낭과 모자와 뿔피리.txt	grimm39.txt
+./dataset/그림형제동화집_전처리/하느님의 음식.txt	grimm40.txt
+./dataset/그림형제동화집_전처리/연인 롤랑.txt	grimm41.txt
+./dataset/그림형제동화집_전처리/재주가 좋은 네 형제.txt	grimm42.txt
+./dataset/그림형제동화집_전처리/성실한 페레난트와 불성실한 페레난트.txt	grimm43.txt
+./dataset/그림형제동화집_전처리/수수께끼 이야기.txt	grimm44.txt
+./dataset/그림형제동화집_전처리/헨젤과 그레텔.txt	grimm45.txt
+./dataset/그림형제동화집_전처리/무쇠 난로.txt	grimm46.txt
+./dataset/그림형제동화집_전처리/젊어진 노인.txt	grimm47.txt
+./dataset/그림형제동화집_전처리/개똥지빠귀 수염 왕.txt	grimm48.txt
+./dataset/그림형제동화집_전처리/엄지둥이.txt	grimm49.txt
+./dataset/그림형제동화집_전처리/여우와 사촌.txt	grimm50.txt
+./dataset/그림형제동화집_전처리/개구리왕자.txt	grimm51.txt
+./dataset/그림형제동화집_전처리/경탄할 만한 연주가.txt	grimm52.txt
+./dataset/그림형제동화집_전처리/여섯 마리 백조.txt	grimm53.txt
+./dataset/그림형제동화집_전처리/생쥐, 새, 소시지.txt	grimm54.txt
+./dataset/그림형제동화집_전처리/양치기 소년.txt	grimm55.txt
+./dataset/그림형제동화집_전처리/고슴도치한스.txt	grimm56.txt
+./dataset/그림형제동화집_전처리/잠자는 숲속의 미녀.txt	grimm57.txt
+./dataset/그림형제동화집_전처리/저승사자.txt	grimm58.txt
+./dataset/그림형제동화집_전처리/대부가 된 저승사자.txt	grimm59.txt
+./dataset/그림형제동화집_전처리/거위치는소녀.txt	grimm60.txt
+./dataset/그림형제동화집_전처리/굴뚝새와곰.txt	grimm61.txt
+./dataset/그림형제동화집_전처리/부엉이.txt	grimm62.txt
+./dataset/그림형제동화집_전처리/가난뱅이와부자.txt	grimm63.txt
+./dataset/그림형제동화집_전처리/고집줄통아이.txt	grimm64.txt
+./dataset/그림형제동화집_전처리/노름꾼 헨젤.txt	grimm65.txt
+./dataset/그림형제동화집_전처리/난쟁이의 선물.txt	grimm66.txt
+./dataset/그림형제동화집_전처리/열두 사도.txt	grimm67.txt
+./dataset/그림형제동화집_전처리/꼬마 요정들.txt	grimm68.txt
+./dataset/그림형제동화집_전처리/아마 부스러기.txt	grimm69.txt
+./dataset/그림형제동화집_전처리/종.txt	grimm70.txt
+./dataset/그림형제동화집_전처리/숲 속의 성 요셉.txt	grimm71.txt
+./dataset/그림형제동화집_전처리/당나귀 왕자.txt	grimm72.txt
+./dataset/그림형제동화집_전처리/여섯 명의 하인.txt	grimm73.txt
+./dataset/그림형제동화집_전처리/게으름뱅이 세 아들.txt	grimm74.txt
+./dataset/그림형제동화집_전처리/황금 열쇠.txt	grimm75.txt
+./dataset/그림형제동화집_전처리/겁없는왕자.txt	grimm76.txt
+./dataset/그림형제동화집_전처리/농사꾼 나부랭이.txt	grimm77.txt
+./dataset/그림형제동화집_전처리/여우 부인의 결혼식.txt	grimm78.txt
+./dataset/그림형제동화집_전처리/세군의관.txt	grimm79.txt
+./dataset/그림형제동화집_전처리/땅속요정.txt	grimm80.txt
+./dataset/그림형제동화집_전처리/웃기는 친구 루스티히.txt	grimm81.txt
+./dataset/그림형제동화집_전처리/까마귀.txt	grimm82.txt
+./dataset/그림형제동화집_전처리/백사.txt	grimm83.txt
+./dataset/그림형제동화집_전처리/닭장의 홰.txt	grimm84.txt
+./dataset/그림형제동화집_전처리/대부님.txt	grimm85.txt
+./dataset/그림형제동화집_전처리/백설공주.txt	grimm86.txt
+./dataset/그림형제동화집_전처리/프레드릭과 캐서린.txt	grimm87.txt
+./dataset/그림형제동화집_전처리/손 없는 소녀.txt	grimm88.txt
+./dataset/그림형제동화집_전처리/이와 벼룩.txt	grimm89.txt
+./dataset/그림형제동화집_전처리/기쁨도 함께 슬픔도 함께.txt	grimm90.txt
+./dataset/그림형제동화집_전처리/샘물가에서 거위치는 아가씨.txt	grimm91.txt
+./dataset/그림형제동화집_전처리/세형제.txt	grimm92.txt
+./dataset/그림형제동화집_전처리/커다란 무.txt	grimm93.txt
+./dataset/그림형제동화집_전처리/세 명의 검은 공주.txt	grimm94.txt
+./dataset/그림형제동화집_전처리/진짜 신부.txt	grimm95.txt
+./dataset/그림형제동화집_전처리/식탁 위의 빵 부스러기.txt	grimm96.txt
+./dataset/그림형제동화집_전처리/솜씨좋은사냥꾼.txt	grimm97.txt
+./dataset/그림형제동화집_전처리/세마리작은새.txt	grimm98.txt
+./dataset/그림형제동화집_전처리/알락해오라기와 후투티.txt	grimm99.txt
+./dataset/그림형제동화집_전처리/파란등잔불.txt	grimm100.txt
+./dataset/그림형제동화집_전처리/노래하며팔짝거리는종달새.txt	grimm101.txt
+./dataset/그림형제동화집_전처리/못.txt	grimm102.txt
+./dataset/그림형제동화집_전처리/열두 사냥꾼.txt	grimm103.txt
+./dataset/그림형제동화집_전처리/여왕벌.txt	grimm104.txt
+./dataset/그림형제동화집_전처리/천국에 간 재단사.txt	grimm105.txt
