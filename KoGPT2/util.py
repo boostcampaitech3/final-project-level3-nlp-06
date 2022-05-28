@@ -71,8 +71,12 @@ class TextDataset(Dataset):
 
         block_size = block_size - tokenizer.num_special_tokens_to_add(pair=False)
 
-        file_extension = r'.txt'
-        file_list = [file for file in os.listdir(directory_path) if file.endswith(file_extension)]
+        file_list = []
+        for (root, _, files) in os.walk(directory_path):
+            for file in files:
+                if '.txt' in file:
+                    file_path = os.path.join(root, file)
+                    file_list += [file_path]
 
         directory, cache_filename = directory_path, "cache"
         cached_features_file = os.path.join(
@@ -99,7 +103,7 @@ class TextDataset(Dataset):
                 self.examples = []
 
                 for file in file_list:
-                    file_path = os.path.join(directory_path[0:len(directory_path)], file)
+                    file_path = file
                     with open(file_path, encoding="utf-8") as f:
                         text = f.read()
 
