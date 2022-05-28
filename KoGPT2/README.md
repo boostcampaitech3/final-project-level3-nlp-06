@@ -30,7 +30,7 @@
 - Usage
 
 ```bash
-python kogpt2_trainer.py # 모델 학습 및 output 폴더에 저장합니다.
-python kogpt2_inference.py # 학습한 모델을 이용해서 테스트 해볼 수 있습니다.
+python main.py # 모델 학습 및 models 폴더에 저장합니다.
+python inference.py # 학습한 모델을 이용해서 테스트 해볼 수 있습니다.
 ```
 > inference시 여러 parameter를 조정하여 결과물을 다양하게 살펴볼 수 있습니다. 주석을 참고해주세요.
