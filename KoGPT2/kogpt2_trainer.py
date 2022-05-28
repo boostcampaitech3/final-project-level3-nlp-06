@@ -60,7 +60,7 @@ def main():
     # 모델명, 데이터 위치, 모델 저장위치, Training arguments를 정의합니다.
     directory_path = 'datasets'
     model_name = 'skt/kogpt2-base-v2'
-    output_dir = 'output'
+    output_dir = 'models'
     overwrite_output_dir = False
     per_device_train_batch_size = 16
     num_train_epochs = 10
