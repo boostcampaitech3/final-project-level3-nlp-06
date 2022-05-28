@@ -1,16 +1,32 @@
 from typing import NoReturn
 from transformers import (
+    TextDataset,
     DataCollatorForLanguageModeling,
     GPT2LMHeadModel,
     Trainer,
     TrainingArguments,
     PreTrainedTokenizerFast
 )
-from util import load_dataset, load_data_collator
+ 
+
+def load_dataset(file_path, tokenizer, block_size = 128):
+    dataset = TextDataset(
+        tokenizer = tokenizer,
+        file_path = file_path,
+        block_size = block_size,
+    )
+    return dataset
+ 
+def load_data_collator(tokenizer, mlm = False):
+    data_collator = DataCollatorForLanguageModeling(
+        tokenizer=tokenizer, 
+        mlm=mlm,
+    )
+    return data_collator
 
 # Train
 def train(
-    directory_path, 
+    train_file_path, 
     model_name, 
     output_dir,
     overwrite_output_dir,
@@ -24,9 +40,9 @@ def train(
                     pad_token='<pad>', mask_token='<mask>')
 
     print('load dataset...')
-    train_dataset = load_dataset(directory_path, tokenizer)
+    train_dataset = load_dataset(train_file_path, tokenizer)
     data_collator = load_data_collator(tokenizer)
-    print(f'{directory_path} loaded!')
+    print(f'{train_file_path} loaded!')
     
     tokenizer.save_pretrained(output_dir, legacy_format=False)
     print(f'Tokenizer save_pretrained. {output_dir}')
@@ -36,18 +52,18 @@ def train(
     print(f'Model save_pretrained. {output_dir}')
     
     training_args = TrainingArguments(
-        output_dir=output_dir,
-        overwrite_output_dir=overwrite_output_dir,
-        per_device_train_batch_size=per_device_train_batch_size,
-        num_train_epochs=num_train_epochs,
-    )
+            output_dir=output_dir,
+            overwrite_output_dir=overwrite_output_dir,
+            per_device_train_batch_size=per_device_train_batch_size,
+            num_train_epochs=num_train_epochs,
+        )
 
     print(training_args)
     trainer = Trainer(
-        model=model,
-        args=training_args,
-        data_collator=data_collator,
-        train_dataset=train_dataset,
+            model=model,
+            args=training_args,
+            data_collator=data_collator,
+            train_dataset=train_dataset,
     )
         
     trainer.train()
@@ -58,7 +74,7 @@ def train(
 ## Main
 def main():
     # 모델명, 데이터 위치, 모델 저장위치, Training arguments를 정의합니다.
-    directory_path = 'datasets'
+    train_file_path = './concate_tale_copy.txt'
     model_name = 'skt/kogpt2-base-v2'
     output_dir = 'models'
     overwrite_output_dir = False
@@ -69,7 +85,7 @@ def main():
     print(f'Modle is {model_name}')
     
     train(
-        directory_path=directory_path,
+        train_file_path=train_file_path,
         model_name=model_name,
         output_dir=output_dir,
         overwrite_output_dir=overwrite_output_dir,
@@ -79,6 +95,7 @@ def main():
     )
 
     print("Training Done!!")
+
 
 
 if __name__ == "__main__":
