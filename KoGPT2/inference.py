@@ -1,4 +1,5 @@
 from transformers import GPT2LMHeadModel, PreTrainedTokenizerFast
+from util import perplexity
 
 # inference
 def generate_text(sequence, max_length, top_k=50, top_p=0.95, temperature=0.85):
@@ -17,7 +18,10 @@ def generate_text(sequence, max_length, top_k=50, top_p=0.95, temperature=0.85):
         top_p=top_p, # Top-P 샘플링
         temperature=temperature, # 높을수록 다양한 결과를 내도록 함
     )
-    return tokenizer.decode(outputs[0], skip_special_tokens=True)
+    result = tokenizer.decode(outputs[0], skip_special_tokens=True)
+    ppl = perplexity(model=model, generated_sentence=outputs[0], stride=32)
+    print('Perplexity : ', ppl)
+    return result
 
 
 def main():
