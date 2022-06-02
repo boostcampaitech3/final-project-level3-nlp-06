@@ -7,12 +7,14 @@ import torch.nn as nn
 import torch.nn.functional as F
 from transformers import DataCollatorForLanguageModeling, PreTrainedTokenizer
 from transformers.utils.logging import *
-
+from datasets import load_metric
 
 from torch.utils.data import Dataset
-from typing import Optional
+from typing import List, Optional
 from filelock import FileLock
 import time
+import random
+from tqdm import tqdm
 
 logger = get_logger(__name__)
 
@@ -41,13 +43,33 @@ def load(ckpt_dir, net, optim):
 
     return net, optim, epoch
 
-def load_dataset(directory_path, tokenizer, block_size=128):
-    dataset = TextDataset(
-        tokenizer=tokenizer,
-        directory_path=directory_path,
-        block_size=block_size
-    )
-    return dataset
+# def load_dataset(directory_path, tokenizer, block_size=128):
+#     dataset = TextDataset(
+#         tokenizer=tokenizer,
+#         directory_path=directory_path,
+#         block_size=block_size
+#     )
+#     return dataset
+
+def load_dataset(dir_path, test_size=0.2):
+    if os.path.isdir(dir_path) is False:
+            raise ValueError(f"Input directory path {dir_path} not found")
+
+    if test_size >= 1:
+        raise ValueError(f"Input test_size {test_size} is Invalid")
+
+    file_list = []
+    for (root, _, files) in os.walk(dir_path):
+        for file in files:
+            if '.txt' in file:
+                file_path = os.path.join(root, file)
+                file_list += [file_path]
+
+    random.shuffle(file_list)
+    N = int(len(file_list) * (1 - test_size))
+    train_dataset, eval_dataset = file_list[:N], file_list[N:]
+
+    return train_dataset, eval_dataset
 
 
 def load_data_collator(tokenizer, mlm=False):
@@ -62,28 +84,27 @@ class TextDataset(Dataset):
     def __init__(
         self,
         tokenizer: PreTrainedTokenizer,
-        directory_path: str,
-        block_size: int,
+        file_list: List,
+        block_size: int = 128,
         overwrite_cache=False,
-        cache_dir: Optional[str] = None
+        cache_dir: Optional[str] = None,
+        train: bool = False,
     ):
-        if os.path.isdir(directory_path) is False:
-            raise ValueError(f"Input directory path {directory_path} not found")
-
+        
         block_size = block_size - tokenizer.num_special_tokens_to_add(pair=False)
+        directory, cache_filename = 'datasets', 'cache'
 
-        file_list = []
-        for (root, _, files) in os.walk(directory_path):
-            for file in files:
-                if '.txt' in file:
-                    file_path = os.path.join(root, file)
-                    file_list += [file_path]
-
-        directory, cache_filename = directory_path, "cache"
-        cached_features_file = os.path.join(
-            cache_dir if cache_dir is not None else directory,
-            f"cached_lm_{tokenizer.__class__.__name__}_{block_size}_{cache_filename}{len(file_list)}",
-        )
+        cached_features_file = None
+        if train:
+            cached_features_file = os.path.join(
+                cache_dir if cache_dir is not None else directory,
+                f"cached_lm_{tokenizer.__class__.__name__}_{block_size}_{cache_filename}_train_{len(file_list)}",
+            )
+        else:
+            cached_features_file = os.path.join(
+                cache_dir if cache_dir is not None else directory,
+                f"cached_lm_{tokenizer.__class__.__name__}_{block_size}_{cache_filename}_test_{len(file_list)}",
+            )
 
         # Make sure only the first process in distributed training processes the dataset,
         # and the others will use the cache.
@@ -137,19 +158,36 @@ class TextDataset(Dataset):
     def __getitem__(self, i) -> torch.Tensor:
         return torch.tensor(self.examples[i], dtype=torch.long)
 
-def perplexity(output, target):
-    output = np.array(output)
-    target = np.array(target)
-    if output.shape[0] <= target.shape[0]:
-        zero_output = np.zeros_like(target)
-        zero_output[:output.shape[0]] = output
-        output = zero_output
-    else:
-        zero_output = np.zeros_like(output)
-        zero_output[:target.shape[0]] = target
-        target = zero_output
+def perplexity(model, generated_sentence, stride=16):
+    max_length = model.config.n_positions
+    print('max_length : ', max_length)
+    print('generated_sentence : ', len(generated_sentence))
+    nlls = []
+    for i in tqdm(range(0, len(generated_sentence), stride)):
+        begin_loc = max(i + stride - max_length, 0)
+        end_loc = min(i + stride, len(generated_sentence))
+        trg_len = end_loc - i  # may be different from stride on last loop
+        input_ids = generated_sentence[begin_loc:end_loc]
+        target_ids = input_ids.clone()
+        target_ids[:-trg_len] = -100
 
-    target = torch.FloatTensor(target)
-    output = torch.FloatTensor(output)
-    loss = F.cross_entropy(output,target)
-    return torch.exp(loss)
+        with torch.no_grad():
+            outputs = model(input_ids, labels=target_ids)
+            neg_log_likelihood = outputs[0] * trg_len
+
+        nlls.append(neg_log_likelihood)
+
+    ppl = torch.exp(torch.stack(nlls).sum() / end_loc)
+    return ppl.numpy()
+
+def compute_metrics(input_texts):
+    # print('predictions : ', input_texts[0], input_texts[0].shape, input_texts[0].size)
+    # print('label_id : ', input_texts[1], input_texts[1].shape, input_texts[1].size)
+    perplexity = load_metric('perplexity')
+    results = perplexity.compute(model_id='models', add_start_token=True, input_texts=input_texts)
+    # print('mean_perplexity : ', round(results["mean_perplexity"], 2))
+    # print('perplexity : ', round(results["perplexities"][0], 2))
+    # print('result : ', results)
+
+    ppl, mean_ppl = round(results["perplexities"][0], 2), round(results["mean_perplexity"], 2)
+    return {'perplexity':ppl, 'mean_perplexity':mean_ppl}

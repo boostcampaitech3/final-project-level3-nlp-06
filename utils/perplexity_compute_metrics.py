@@ -6,6 +6,7 @@ def main():
     input_texts = load_dataset("wikitext",
                                         "wikitext-2-raw-v1",
                                         split="test")["text"][:50]
+    print(input_texts, type(input_texts))
     input_texts = [s for s in input_texts if s!='']
     results = perplexity.compute(model_id='gpt2',
                                 input_texts=input_texts)
