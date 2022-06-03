@@ -1,4 +1,5 @@
 import os
+import random
 import numpy as np
 from scipy.stats import poisson
 from skimage.transform import rescale, resize
@@ -93,3 +94,25 @@ def load(ckpt_dir, netG_a2b, netG_b2a, netD_a, netD_b, optimG, optimD):
 
     return netG_a2b, netG_b2a, netD_a, netD_b, optimG, optimD, epoch
 
+
+## 네트워크 불러오기
+def random_load(ckpt_dir, netG_a2b, netG_b2a, netD_a, netD_b, optimG, optimD):
+    if not os.path.exists(ckpt_dir):
+        epoch = 0
+        return netG_a2b, netG_b2a, netD_a, netD_b, optimG, optimD, epoch
+
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+    ckpt_lst = os.listdir(ckpt_dir)
+    ckpt_lst = [f for f in ckpt_lst if f.endswith('pth')]
+    dict_model = torch.load('%s/%s' % (ckpt_dir, random.choice(ckpt_lst)), map_location=device)
+
+    netG_a2b.load_state_dict(dict_model['netG_a2b'])
+    netG_b2a.load_state_dict(dict_model['netG_b2a'])
+    netD_a.load_state_dict(dict_model['netD_a'])
+    netD_b.load_state_dict(dict_model['netD_b'])
+    optimG.load_state_dict(dict_model['optimG'])
+    optimD.load_state_dict(dict_model['optimD'])
+    epoch = int(ckpt_lst[-1].split('epoch')[1].split('.pth')[0])
+
+    return netG_a2b, netG_b2a, netD_a, netD_b, optimG, optimD, epoch
