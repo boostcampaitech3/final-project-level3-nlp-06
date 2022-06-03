@@ -77,7 +77,7 @@ def main(args):
     # TEST MODE
     netG_a2b, netG_b2a, \
     netD_a, netD_b, \
-    optimG, optimD, _ = load(ckpt_dir=ckpt_dir,
+    optimG, optimD, _ = random_load(ckpt_dir=ckpt_dir,
                                     netG_a2b=netG_a2b, netG_b2a=netG_b2a,
                                     netD_a=netD_a, netD_b=netD_b,
                                     optimG=optimG, optimD=optimD)
