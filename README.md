@@ -4,7 +4,7 @@
 해당 프로젝트는 네이버 커넥트재단의 부스트캠프 AI tech 3기 nlp06조 자,연어 한 접시가 최종 프로젝트로 기획하였습니다.
 
 ## 팀원 소개
-|<img src= width = >|<img src= width=>|<img src= width=>|<img src= width=>|<img src= width=>|
+|<img src="https://avatars.githubusercontent.com/u/86389775?v=4" width = 80>|<img src="https://avatars.githubusercontent.com/u/63946027?v=4" width=80>|<img src="https://avatars.githubusercontent.com/u/56011433?v=4" width=80>|<img src="https://avatars.githubusercontent.com/u/30717355?v=4" width=80>|<img src="https://avatars.githubusercontent.com/u/52444343?v=4" width=80>|
 | :--------: | :--------: | :--------: | :--------: | :--------: |
 |[T3252] 김선재<br>[@ksj1453](https://github.com/ksj1453)|[T3215] 차경민<br>[@rudals0215](https://github.com/rudals0215)|[T3140] 이도훈<br>[@Sunjii](https://github.com/Sunjii)|[T3065] 김태훈<br>[@thkim107](https://github.com/thkim107)|[T3007] <br> 강진희<br>[@JINHEE-KANG](https://github.com/JINHEE-KANG)|
 |데이터 수집 및 전처리|데이터 수집 및 전처리|데이터 수집 및 전처리|데이터 수집 및 전처리|데이터 수집 및 전처리|
@@ -49,16 +49,20 @@ python cyclegan/main.py
 
 ### Inference
 **Tale generation model**
-```python
+```bash
+python KoGPT/kogpt_inference.py
+python KoGPT2/inference.py
 ```
 
 **Image style-transfer model**
-```python
+```bash
+python cyclegan/inference.py
 ```
 
 
 ### Web
-```python
+```bash
+
 ```
 
 
