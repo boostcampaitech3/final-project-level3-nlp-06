@@ -4,3 +4,4 @@ wandb/
 __pycache__
 *.csv
 *.ipynb
+.ipynb_checkpoints
