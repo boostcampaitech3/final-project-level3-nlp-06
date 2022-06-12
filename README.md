@@ -17,7 +17,7 @@
 
 GatherBook은 사용자가 동화 문장을 입력하면 다음으로 이어질 문장을 창작하여 사용자와 번갈아가며 동화를 작성하는 참여형 창작 웹서비스 입니다.
 
-> 데모 여기에
+## [GatherBook 바로가기](http://gather-book-front.herokuapp.com/)
 <p align="center">
   <img src=src/demo.gif />
 </p>
@@ -34,12 +34,62 @@ pip install -r requirements.txt
 **Image style-transfer model**
 ![](src/cyclegan.png)
 
+## Project Tree
+```bash
+final-project-level3-nlp-06
+├── KoGPT
+│   ├── RESULT
+│   ├── README.md
+│   ├── kogpt_inference.py
+│   ├── kogpt_trainer.py
+│   └── util.py
+├── KoGPT2
+│   ├── RESULT
+│   ├── datasets
+│   ├── README.md
+│   ├── inference.py
+│   ├── main.py
+│   ├── train.py
+│   └── util.py
+├── LanguageModel
+│   ├── data
+│   ├── dataset.py
+│   ├── inference.py
+│   ├── main.py
+│   ├── model.py
+│   └── train.py
+├── cyclegan
+│   ├── README.md
+│   ├── dataset.py
+│   ├── didsplay_results.py
+│   ├── inference.py
+│   ├── layer.py
+│   ├── main.py
+│   ├── model.py
+│   ├── run_main.sh
+│   ├── train.py
+│   └── util.py
+├── src
+├── streamlit
+│   ├── images
+│   │   └── streamlit.png
+│   ├── README.md
+│   ├── inference_for_streamlit.py
+│   └── streamlit_app.py
+├── utils
+│   ├── perplexity_compute_metrics.py
+│   ├── perplexity_test.py
+│   ├── preprocessing.py
+│   └── scrapper.py
+├── requirements.txt
+└── README.md
+```
+
 ## Usage
 ### Train
 **Tale generation model**
 ```bash
 python KoGPT/kogpt_trainer.py
-python KoGPT2/main.py
 ```
 
 **Image style-transfer model**
@@ -51,7 +101,6 @@ python cyclegan/main.py
 **Tale generation model**
 ```bash
 python KoGPT/kogpt_inference.py
-python KoGPT2/inference.py
 ```
 
 **Image style-transfer model**
@@ -80,5 +129,12 @@ python cyclegan/inference.py
 - [이솝우화 동화 번역 데이터](https://m.blog.naver.com/osy2201/221183426988)
 - [신춘문예 당선작]()
 - [픽사베이 무료 이미지](https://pixabay.com/)
+- [CycleGAN 공식 train datsets](https://people.eecs.berkeley.edu/~taesung_park/CycleGAN/datasets/)
 
 ### Reference
+- 한국출판문화산업진흥원, 스마트미디어를 활용한 독서 생활화 방안 연구
+- Jun-Yan Zhu et al. , [“Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks”](https://arxiv.org/pdf/1703.10593)
+- Kichang Yang,[“Transformer-based Korean Pretrained Language Models: A Survey on Three Years of Progress”](https://arxiv.org/pdf/2112.03014)
+- Oriol Vinyals et al. , [“Show and Tell: A Neural Image Caption Generator”](https://arxiv.org/pdf/1411.4555.pdf)
+- Aditya Ramesh et al., [“Zero-Shot Text-to-Image Generation”](https://arxiv.org/pdf/2102.12092)
+- https://openai.com/blog/dall-e/
