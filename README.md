@@ -13,14 +13,24 @@
 
 
 ---
-# 함께 쓰는 참여형 동화 서비스 GatherBook
+# 함께 쓰는 참여형 동화 서비스 
+<p align="center">
+    <img src=src/logo.png style="display: inline">
+</p>
 
 GatherBook은 사용자가 동화 문장을 입력하면 다음으로 이어질 문장을 창작하여 사용자와 번갈아가며 동화를 작성하는 참여형 창작 웹서비스 입니다.
+
+1. 다음 이야기를 쓰기 막막할 땐? AI가 제안하는 색다른 내용의 동화 전개로 **아이디어**를 얻고 동화 작성 **시간** 단축할 수 있습니다.
+2. AI와 함께 하는 대화형 창작 서비스로 인공지능 기술과 가까워질 수 있습니다.
+
+
 
 ## [GatherBook 바로가기](http://gather-book-front.herokuapp.com/)
 <p align="center">
   <img src=src/demo.gif />
 </p>
+
+GatherBook 개발 일대기가 궁금하다면 [여기(랩업 리포트)](src/wrapupreport.pdf)에서 확인할 수 있습니다
 
 ## Installation
 ```bash
@@ -29,7 +39,7 @@ pip install -r requirements.txt
 
 ## Architecture
 **Tale generation model**
-![](src/KoGPT-trinity.png)
+![](src/gpt-3.png)
 
 **Image style-transfer model**
 ![](src/cyclegan.png)
@@ -135,6 +145,8 @@ python cyclegan/inference.py
 - 한국출판문화산업진흥원, 스마트미디어를 활용한 독서 생활화 방안 연구
 - Jun-Yan Zhu et al. , [“Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks”](https://arxiv.org/pdf/1703.10593)
 - Kichang Yang,[“Transformer-based Korean Pretrained Language Models: A Survey on Three Years of Progress”](https://arxiv.org/pdf/2112.03014)
+- Tom B. Brown et al. , ["Language Models are Few-Shot Learners"](https://arxiv.org/pdf/2005.14165.pdf)
+- Jay Alammar, [How GPT3 Works - Visualizations and Animations](https://jalammar.github.io/how-gpt3-works-visualizations-animations/)
 - Oriol Vinyals et al. , [“Show and Tell: A Neural Image Caption Generator”](https://arxiv.org/pdf/1411.4555.pdf)
 - Aditya Ramesh et al., [“Zero-Shot Text-to-Image Generation”](https://arxiv.org/pdf/2102.12092)
 - https://openai.com/blog/dall-e/
