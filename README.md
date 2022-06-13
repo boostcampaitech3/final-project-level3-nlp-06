@@ -14,9 +14,10 @@
 
 ---
 # 함께 쓰는 참여형 동화 서비스 
+
 <p align="center">
-    <img src=src/logo.png style="display: inline">
-</p>
+    <img src ='https://user-images.githubusercontent.com/86389775/173286833-da34f2b0-113f-47fe-bdd0-60f8bf24f362.jpg', width =20%, height =20%></p>
+
 
 GatherBook은 사용자가 동화 문장을 입력하면 다음으로 이어질 문장을 창작하여 사용자와 번갈아가며 동화를 작성하는 참여형 창작 웹서비스 입니다.
 
