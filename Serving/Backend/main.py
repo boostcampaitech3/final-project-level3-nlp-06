@@ -32,10 +32,10 @@ import base64
 
 
 ## DB 호출
-my_client = MongoClient(host= YOUR_HOSTNUM , port= YOUR_PORT , username= YOUR_USERNAME , password= YOUR_PASSWORD )
+my_client = MongoClient(host= "YOUR_HOSTNUM" , port= "YOUR_PORT" , username= "YOUR_USERNAME" , password= "YOUR_PASSWORD" )
 app = FastAPI()
-mydb = my_client[YOUR_DB_NAME] # DB 이름
-mycollection = mydb[YOUR_COLLECTION_NAME] # Collection 이름
+mydb = my_client["YOUR_DB_NAME"] # DB 이름
+mycollection = mydb["YOUR_COLLECTION_NAME"] # Collection 이름
 
 
 
@@ -84,11 +84,11 @@ async def create_submit(author : str = Form(...), title : str = Form(...) , text
         file_ = file
         result ={}
         story_id = ""       
-        UPLOAD_DIRECTORY = "./static/images/original/"
-        CHG_DIRECTORY = "./static/images/changed/"
+        UPLOAD_DIRECTORY = "./static/images/original/" # 업로드 이미지 저장 경로
+        CHG_DIRECTORY = "./static/images/changed/" # 변경 이미지 저장 경로
         story_id = uuid4().hex	    
         org_file_name = ''.join([story_id,'.png'])
-        chg_file_name =''.join([story_id,'.png']) # .jpg
+        chg_file_name =''.join([story_id,'.png']) 
         file_location = os.path.join(UPLOAD_DIRECTORY,org_file_name)
 
         tmp_pth = "./static/temp/"
@@ -126,7 +126,7 @@ async def create_submit(author : str = Form(...), title : str = Form(...) , text
             print( "insert failed", sys.exc_info()[0])
         return {**result_, "chg_file_bs64" : base64image}
 
-
+# 사용자 입력 맞춤법 검사
 @app.post('/spellcheck', response_description = "dict 형식의 사용자 입력 문장 맞춤법 결과 반환", tags=["글"])
 def spellcheck(data : str = Form(...)):
     checked_sentence = spell_checker.check(data)
@@ -155,7 +155,7 @@ async def tales() :
     except :
         return print("DB Empty")
 
-
+# 이야기 하나씩 가져오기
 IMG_DIRECTORY = "./static/images/original/"
 @app.get('/tales/{id}',  tags=["글"])
 async def find_story(id : int ) :
@@ -182,4 +182,4 @@ async def find_story(id : int ) :
     return result
 
 if __name__ == "__main__" :
-	uvicorn.run('main_n:app', host = '0.0.0.0', port =30001,  reload=True, workers =2)
+	uvicorn.run('main:app', host = '0.0.0.0', port ="YOURPORT",  reload=True, workers =2)
