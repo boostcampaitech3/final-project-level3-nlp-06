@@ -1,0 +1,237 @@
+@tailwind base;
+@tailwind components;
+
+.input {
+  @apply focus:outline-none focus:border-grey-600 p-3 border-2 text-lg font-light border-grey-200 mb-3 transition-colors;
+}
+
+.btn {
+  @apply mt-3 text-lg font-medium text-white px-5 py-4 bg-lime-600 hover:bg-lime-800 transition-colors;
+}
+
+@font-face {
+  font-family: "WooridaumB";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/WooridaumB.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DungGeunMo";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html > body {
+  font-family: "WooridaumB";
+}
+
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap");
+/*Global styles*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-font: "Source Sans Pro", sans-serif;
+  --secondary-font: "Herr Von Muellerhoff", cursive;
+  --body-font: "Cabin", sans-serif;
+  --main-font-color-dark: #252525;
+  --secondary-font-color: #c59d5f;
+  --body-font-color: #515151;
+}
+
+.title-bg {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background: url("../asset/images/headline-bg.jpg") center no-repeat;
+}
+
+.write-bg {
+  width: 100%;
+  height: 100%;
+  background: url("../asset/images/headline-bg.jpg") top center no-repeat;
+}
+
+.tales-bg2 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background: url("../asset/images/headline-bg.jpg");
+}
+
+.tales-bg {
+  width: 100;
+  height: 100;
+  background-position: center;
+  opacity: 80;
+  background: url("../asset/images/tales-bg.jpg") center;
+}
+
+.about-page {
+  background: url("../asset/images/bottom-bg2.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.myBlue {
+  color: #40a8f0;
+}
+.myGreen {
+  color: #f5f181;
+}
+
+.headText {
+  font-size: 7rem;
+  font-family: var(--secondary-font);
+  color: var(--secondary-font-color);
+  /*color: lightyellow;*/
+  font-weight: 100;
+  line-height: 0.4;
+  letter-spacing: 2px;
+}
+
+.page-title {
+  color: black;
+  font-weight: 100;
+}
+
+.first-letter {
+  text-transform: uppercase;
+  font-size: 10.3rem;
+}
+
+.headline {
+  color: #1176ae;
+  font-size: 3.5rem;
+  font-family: var(--main-font);
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 0.5rem;
+  margin-right: -0.5rem;
+}
+
+.headline-description {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+  letter-spacing: 3px;
+  margin-left: -3px;
+}
+
+/* Discover */
+
+.global-headline {
+  text-align: center;
+  margin-top: 3.9rem;
+  letter-spacing: -1px;
+}
+
+.discover-out-story {
+  margin-top: 6.9rem;
+}
+
+.headline-dark {
+  color: var(--main-font-color-dark);
+  letter-spacing: 0.7rem;
+  margin-left: -0.7rem;
+}
+
+.project-info {
+  text-align: center;
+}
+
+.project-description {
+  margin-bottom: 3rem;
+}
+
+.project-description p {
+  line-height: 1.6;
+  margin-bottom: 2.4rem;
+}
+
+.body-btn {
+  font-size: 1.5rem;
+  color: var(--secondary-font-color);
+  position: relative;
+  transition: color 0.5s;
+}
+
+.body-btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 2px;
+  background-color: var(--secondary-font-color);
+  transition: background-color 0.5s;
+}
+
+.body-btn:hover,
+.body-btn:focus {
+  color: var(--main-font-color-dark);
+}
+
+.body-btn:hover::before,
+.body-btn:focus::before {
+  background-color: var(--main-font-color-dark);
+}
+
+/* story sample */
+
+.story-examples {
+  background: url("../asset/images/bottom-bg.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.between {
+  min-height: 65vh;
+}
+
+.bottom-btn {
+  font-size: 1.5rem;
+  color: var(--secondary-font-color);
+  position: relative;
+  transition: color 0.5s;
+}
+
+.bottom-btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 2px;
+  background-color: var(--secondary-font-color);
+  transition: background-color 0.5s;
+}
+
+.bottom-btn:hover,
+.bottom-btn:focus {
+  color: #fce5ca;
+}
+
+.bottom-btn:hover::before,
+.bottom-btn:focus::before {
+  background-color: #fce5ca;
+}
+
+/* About us */
+
+.about-headline {
+  background: linear-gradient(to right, #e30e0e, #afd177);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
