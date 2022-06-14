@@ -31,7 +31,10 @@ GatherBook은 사용자가 동화 문장을 입력하면 다음으로 이어질 
   <img src=src/demo.gif />
 </p>
 
+GatherBook 발표 PPT는 [이곳](src/presentation_appendix.pdf)을 확인해주세요!
+
 GatherBook 개발 일대기가 궁금하다면 [여기(랩업 리포트)](src/wrapupreport.pdf)에서 확인할 수 있습니다
+
 
 ## Installation
 ```bash
